@@ -1,0 +1,224 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+#container-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+    width: 250px;
+    
+
+
+}
+
+.search {
+
+    display: flex;
+    background-color: rgb(197, 197, 197);
+    width: 35%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    justify-content: center;
+
+    
+        
+}
+.search input {
+    width: 100%;
+}
+
+#info-user {
+    height: 28px;
+    width: 8%;
+    display: flex;
+    gap: 10px;
+    object-fit: contain;
+    
+}
+#pai {
+    width: 100%;
+    display: flex;
+}
+main{
+    display:inline-flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 50px 20px 0 0;
+    
+    
+}
+
+main h1 {
+    font-family: 'roboto';
+    font-size: 25px;
+    font-weight: 600;
+    display: inline-flex;
+}
+main > img {
+    width: 100%;
+}
+
+#interacoes{
+    display: flex;
+    /* background-color: #cc0000; */
+    
+}
+.canal {
+    display: flex;
+    font-family: 'Roboto';
+    width: 130px;
+   
+
+}
+
+.canal img {
+    object-fit: scale-down;
+}
+.canal
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:10px;
+    
+    
+}
+.texto h2 {
+    margin-bottom: -10px;
+}
+
+.botao-inscrever {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+.botao-inscrever a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 1.3rem;
+    color: azure;
+    padding: 15px;
+    background-color: #cc0000;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.botao-inscrever a:hover {
+    background-color: brown;
+}
+
+.botao-like {
+    width: 100px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10px;
+    gap: 10px;
+
+}
+.botao-like img {
+    object-fit: scale-down;
+    width: 30px;
+    align-self: center;
+    
+}
+.botao-like p {
+    align-self: center;
+    font-weight: 600;
+    font-family: 'Roboto';
+    font-size: 1.1rem;
+}
+.botao-deslike {
+    width: 140px;
+    display: flex;
+    gap: 8px;
+    
+    
+
+}
+.botao-deslike img {
+    object-fit: scale-down;
+    width: 30px;
+    
+}
+.botao-deslike p {
+    align-self: center;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 1.1rem;    
+
+}
+.botao-compartilhar {
+    display: flex;
+    width: 130px;
+    margin: 10px;
+    align-items: flex-start;
+    gap: 5px;
+    
+}
+.botao-compartilhar img {
+    object-fit: scale-down;
+    width: 35px;
+    align-self: center;
+}
+
+.botao-compartilhar p {
+    align-self: center;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.botao-download {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 10px;
+} 
+.botao-download img {
+    object-fit: scale-down;
+    width: 30px;
+    
+    
+
+}
+.botao-download p,img {
+    align-self:center;
+    font-weight: 600;
+    font-size: 1.3rem;
+    font-family: 'Roboto';
+    
+} 
+
+#informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#informacoes h3 {
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    
+}
+#informacoes p {
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+#scroll {
+    
+    display: inline-flex;
+    margin: 50px 0 0 0 ;
+
+}

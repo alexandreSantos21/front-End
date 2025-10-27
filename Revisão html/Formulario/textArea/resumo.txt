@@ -1,0 +1,10 @@
+
+Aprendendo sobre TextArea
+
+Esta tag cria um campo de texto que permite digitar mais palavras usado para digitar comentarios 
+
+atributos
+
+rows -  define a altura (linhas)
+cols - define a largura (colunas)
+placeholder - permite colocarmos um texto para ajudar o usuario

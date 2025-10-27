@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Aprendendo sobre radio e checkbox</title>
+    </head>
+    <body>
+
+        <form method="get" action="#" autocomplete="on" target="_self">
+            <h3>bordar recheado</h3>
+            <p>Quais Opcionais você deseja?</p>
+            <label >Queijo</label>
+            <input type="checkbox" name="opcional[]" value="Queijo">
+            <br>
+            <label >Calabresa</label>
+            <input type="checkbox" value="Calabresa" name="opcional[]">
+            <br>
+            <label >frango</label>
+            <input type="checkbox" name="opcional[]" value="frango" disabled>
+
+
+            <h3>Borda recheada</h3>
+            <input type="radio" name="borda" value="Sim">
+            <label for="">Sim</label>
+            
+            <br>
+            <input type="radio" name="borda" value="Nao">
+            <label for="">Não</label>
+            
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+</html>

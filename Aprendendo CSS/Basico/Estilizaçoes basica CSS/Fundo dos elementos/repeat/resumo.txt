@@ -1,0 +1,20 @@
+
+
+A tag background-repeat controla o comportamento de repetição dos valores pois quando colocamos uma imagem de fundo quando ela não preenche todo o espaço ela por padrao repete 
+
+
+background-repeat: no-repeat,around - podemos usar 2 valores um para cada eixo separando por virgula
+
+
+background-repeat:repeat; - vem por padrao e repete a imagem para cobrir o espaço 
+
+background-repeat:repeat-x; com este atributo vai repetir apenas no eixo horizontal
+
+background-repeat:repeat-y; com este atrbutos vai repetir apenas no eixo vertical
+
+background-repeat:space; - com este atributo a imagem vai ser remencionada para mostrar a imagem inteira e repetir porem as partes que seriam cortar vai ser convertida em espaço
+
+background-repeat:around; com este atributo vai ser remencionada para mostrar o tamanho inteiro da imagem e repedir até preencher o tamanho inteiro
+
+background-repeat:no-repeat; - com este atributo não ira repetir mesmo que nao preencha todo o o espaço
+

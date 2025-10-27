@@ -1,0 +1,19 @@
+
+
+Display block - Quando colocamos este valor em uma tag nos definimos que a tag deve ocupar o espaço inteiro da tela como as div - h1 - p 
+
+display inline - Quando usamos este valor a tag vai ocupar apenas o conteudo do conteudo
+    - Quando aplicamos valor inline na tag ela nao vai receber mais o valor height - widht
+    - E tambem os valores padding - margin serão aplicados apenas na horizontal 
+
+
+Display inline-block - Quando usamos este Atributo o tamanho da caixa vai ficar no tamanho do conteudo porem a diferença é que aceita todas as propiedade width - height - padding - margin 
+
+Display: none - Quando aplicamos esta tag o elemento se comportará comos se tivesse sido excluido da pagina porem continua no DOM
+
+visibility:hidden - esta tag ela esconde o elemento da pagina porem o espaço que elemento ocupava continuará ou seja o conteudo apenas ficará invisivel 
+
+alinhamento de elementos inline - As tags que começam com o valor inline podem ser alinhadas por duas propiedades text-aling(horizontal) e vertical-aling
+
+    text-aling - alinha os item mesmo que nao sejam texto na linha horizontal
+    verital-aling - alinha os items na vertical e recebe os valores (top - middle - bottom)

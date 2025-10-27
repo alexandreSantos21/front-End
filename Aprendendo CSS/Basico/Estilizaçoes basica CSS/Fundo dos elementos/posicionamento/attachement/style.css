@@ -1,0 +1,24 @@
+
+
+/* over-flox - cria uma barra de rolagem */
+
+div {
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    background-color: red;
+    background-image: url(img/imagem-fundo.jpg);
+    overflow: auto;
+    color: white;
+    font-size: 40px;
+    
+}
+#div1 {
+    background-attachment: fixed;
+}
+#div2 {
+    background-attachment: scroll;
+}
+#div3 {
+    background-attachment: local;
+}

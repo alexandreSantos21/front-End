@@ -1,0 +1,33 @@
+
+
+width - largura 
+heigth - altura
+
+palavras reservadas
+
+auto - esse atributos faz com que o tamanho da caixa se adapte ao conteudo
+inherit - Com este atributo o tamanho da caixa se adapta ao tamanho da caixa pai
+initial - Este é um atributo que deixa com tamanho inicial
+
+
+
+
+Aprendendo Min e max width
+
+essas propiedas servem para definir um tamanho minimo e tamanho maximo da tag
+
+aprendendo Sobre o margin 
+
+Margin é um espassamento externo caixa tendo 4 valores top - button - right - left 
+
+margin:auto - serve para centralizar o conteudo 
+
+podemos tambem aplicar no margin valores negativos e da um efeito de estar dentro 
+
+Aprendendo box-sizing
+
+Recebe 2 valores border-box e content-box e ela lida com o comportamento das caixas
+
+content-box ele soma os valores width - padding - border entao ao passarmos width 200 px talvez o nosso elemento fique maior que o passado pois há o padding e border
+
+border-box - com este atributo ele redimenciona os valores de padding - width - border para que atenda o valor passado

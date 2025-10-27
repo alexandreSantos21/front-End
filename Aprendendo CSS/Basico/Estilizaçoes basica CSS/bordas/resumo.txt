@@ -1,0 +1,48 @@
+
+border-width - border-style - border-color = esses sao valores que usamos para definir uma borda porem normalmente usamos apenas o short-hand 
+
+
+Podemos usar palavras chave para definir as bordas
+
+thin (1 px) - medium (3px ) - thick (5px )
+
+podemos atribuir o tamanho das bordas pelo eixo x e y 
+
+
+Estilos de borda - temos alguns tipos de bordas cada um com visual diferente como 
+
+    solid - dashed - double - groove - ridge - insert - dotted - double - outsed 
+
+E tambem podemos usar mais de um tipo de borda na nossa caixa separando por espaço e seguindo o eixo x e y (relogio)
+
+
+para mudar a cor da borda nos usamos o border-color e podemos passar mais de um valor seguindo os eixos x e y
+
+border é o short-hand e segue a sequecia espeçura - estilo - cor
+
+para arredondar usamos o border-radius se quisermos deixar os valores mais arredondados usamos o sinal de barra e para fazer um circulos perfeito usamos 50% neste atributo 
+
+
+Apredendo a colocar imagem ou gradiente nas bordas 
+
+    - para adicionar nas bordas usamos o border-image-source:url () ou linear-gradient 
+
+    Quando usamos a imegem fica nos 4 quando entao usamos a tag border-image-slice:number;
+
+    border-image-widht - Para definir o tamanho das imagem na borda 
+
+
+    border-image-repeat - controla a repetiçao da imagem na border e recebe alguns valores
+
+    repeat - repete as imagens na borda
+    stretch - Estica a imagem na borda
+    round - ele remineciona as imagem para evitar corta-la 
+    space - ele adiciona um espeço para ajudar as imagem
+
+
+    border-image-outset - esta tag cria um espaçamento na imagem podendo sair de dentro da imagem e ficar no mesmo efeito que uma margin 
+
+
+Border-imagem - é um shorts-hand das tags seguindo a sequencia caminho - slice - repeat e se quisermos usar mais atributos separamos por barra e ficaria assim 
+
+    caminho (url ou linear) slice (para sair das pontas) / width / outset() repete(no-repeat)  

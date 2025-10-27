@@ -1,0 +1,14 @@
+
+
+Nesta aula vimos que podemos estilizar varias tag juntas ultilizando apenas 1 bloco de codigo
+e para isso ultizamos a virgula(,) 
+
+div,p,a{
+
+}
+
+e para especificar um elemento podemos selecionar e não colocar espaços assim este bloco vai estilizar apenas os elemento que possuem todos os elemento
+
+div.texto {
+    assim irá selecionar apenas a div com a classe texto
+}

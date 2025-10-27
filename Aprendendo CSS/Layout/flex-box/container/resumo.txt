@@ -1,0 +1,70 @@
+
+Aprendendo sobre flex-box - serve para posicionar nossos item na tela e assim tendo mais controle 
+
+display:flex; - Quando usamos esta tag os items ficarão flexiveis e por padrão o item pai se comporta como block 
+
+display:inline-flex; - este é a mesma coisa do display-flex porem o item pai se comportará por inline
+
+
+Eixo do flex-box - para definir o eixo usamos a tag flex-direction
+
+    main-axis - é o eixo principal e pode ser na linha horizontal ou vertical 
+    cross-axis - este eixo atravessa o eixo principal ou seja se o main axis estiver na horizontal o cross axis estará na vertical e se o main axis estiver na vertical o cross axis estára na horizontal
+
+    
+flex-direction - valores
+
+    row - é aplicada por padrão quando aplicamos o display:flex
+    row-reverse - deixa em linha porem ao contrario
+
+    colum - deixa os itens em coluna
+    colum-reverse - deixa os coluna porem ao contrario
+
+
+Quando usamos o reverse o eixo - end e start muda tambem?
+
+flex-wrap - esta tag serve para definir se os items devem quebrar ou nao quando o container nao encaixar todo os elementos 
+
+    flex-wap:wap; - com este valor ele vai quebrar os elementos
+    flex-wrap:wap-reverse; - com este valor ele vai quebrar porem na direção contraria
+    flex-wrap:no-wap; - com este valor ele vai quebrar
+
+flex-flow - Este é o short-hand do flex-box e tem como os atributos - (direçao quebra)
+
+    flex-flow: row no-wap; vem por padrão com este valor e segue esta ordem
+
+justify-content - esta tag ela alinha os item no eixo principal e recebe alguns valores
+
+    flex-start - vem por padrão e alinha no começo do elementos
+
+    flex-end - alinha no final da elementos
+
+    center - contraliza no eixo principal 
+
+    space-between - cria um espaçamento colando os item na ponta  [item  item  item]
+
+    space-around - cria um espaçamento na pontas e aplica o dobro de espaço entre os item que estao no container [ item  item  item ]
+
+    space-evenly - aplica um espaçamento entre os item todos no mesmo espaço [ item item item ]
+
+
+aling-items - Esta propiedade alinha os items no eixo transversal ou seja no cross-axis
+
+    flex-start -alinha os items no inicio da linha transversal 
+    flex-end - alinha os items no final da linha transversal 
+    center - centraliza os item no meio do eixo transversal
+    stretch - vai esticar os itens para que caiba no caixa inteira
+    baseline - vai alinhas os itens na base dos textos
+
+aling-content - Esta propiedade alinha onde os atributos irão ficar quando acontece a quebra de linha e recebe alguns valores
+
+    flex-start - alinha no começo
+    flex-end - alinha no final 
+    center - centraliza o conteudo 
+    stretch - 
+    space-between - alinha grudando os lados e dando um espaço no meio
+    space- around - cria um espaço nas bordas e ao meio 
+
+
+gap - Com esta tag conseguimos colocar um espaçamento entre os itens e colunas recebe os 2 valores [linhas e colunas]
+

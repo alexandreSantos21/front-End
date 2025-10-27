@@ -1,0 +1,38 @@
+
+
+div {
+    width: 300px;
+    height: 300px;
+    background-image: url(img/img/imagem-passado.avif);
+    margin: 20px 0px 30px;
+    
+}
+#repeat {
+    background-size: 120px;
+    background-repeat: repeat;
+}
+
+#repeat-x {
+    background-size: 120px;
+    background-repeat: repeat-x;
+    border: 1px solid red;
+}
+#repeat-y {
+    background-size: 120px;
+    background-repeat: repeat-y;
+    border: 1px solid red;
+}
+
+#space {
+    background-size: 120px;
+    background-repeat: space;
+}
+#round {
+    background-size: 120px;
+    background-repeat: round;
+}
+#no-repeat {
+    background-size: 70%;
+    background-repeat: no-repeat;
+    border: 1px solid blue;
+}

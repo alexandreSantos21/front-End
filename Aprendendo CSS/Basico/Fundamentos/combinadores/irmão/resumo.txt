@@ -1,0 +1,17 @@
+
+
+Combidores irmao adjacente 
+
+São combinadores que seleciomos que vem depois da tag selecionada e para isso usamos o sinal de (+) ou seja selecionamos e a tag estilizada será a proxima
+
+div + p {
+    ou seja a tag proxima de P que será estilizada
+}
+
+combinador irmão adjacente geral
+
+neste exemplo as tags que serao estilizada serão todas que vem depois da selecionada e para isso usamos o sinal (~)
+
+div ~ p {
+    todas as tags que virão depois de P serão estilizadas
+}

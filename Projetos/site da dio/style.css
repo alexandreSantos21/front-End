@@ -1,0 +1,219 @@
+
+@import url(reset.css);
+@import url(fonts.css);
+body {
+    background-color: black;
+
+}
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2),
+    rgba(0, 0, 0, .6)), url('Imagens/fundo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    border-bottom: 1px solid #33A8DB80; 
+    text-align: center;
+    
+    
+    
+}
+header nav {
+    width: 100%;
+    height: 9vh;
+    background-image: linear-gradient(#00000080,#0000001f);
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    align-items: center;
+    position: fixed;
+    
+    
+}
+
+header nav a {
+    text-decoration: none;
+    /* color: rgb(213, 215, 224); */
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #1472B7;
+    font-size: 1.3rem;
+    
+}
+header nav a:hover {
+    text-decoration: underline;
+    transition: all 1s ease-in-out;
+}
+    header h1 {
+    font-size: 3rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 4px;
+    margin: 2rem;
+
+}
+header p {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Cabin',sans-serif;
+    font-weight: 400;
+    width: 800px;
+    margin: 60px auto;
+
+}
+#botao-inscrever {
+    
+    padding: 20px 40px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    border: 1px solid #1472B7;
+    background-color: transparent;
+    color: rgb(218, 218, 218);
+
+}
+#botao-inscrever:hover {
+    text-decoration: underline;
+    color: #1472B7;
+    background-color: rgb(228, 228, 228);
+    transition: all .8s ease-in-out;
+    text-transform: uppercase;
+}
+#secao-aprendizado {
+    width: 100%;
+    height: 70vh;
+    color: white;
+    text-align: center;
+}
+
+#secao-aprendizado h2 {
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1472B7;
+    margin: 100px  auto 0 ;
+}
+
+
+#secao-aprendizado > p {
+    /* background-color: red; */
+    width: 65%;
+    margin: 50px auto;
+    font-size: 1.3em;
+    font-family: sans-serif;
+    
+}
+#secao-aprendizado div {
+    width: 50%;
+    margin: 50px auto;
+    height: 7vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1472B7;
+    background-color:transparent;
+    font-family: sans-serif;
+    
+}
+
+#secao-aprendizado span {
+    color: #1472B7;
+    font-weight: 700;
+}
+
+#imagem-fundo {
+    width: 100%;
+    /* background-color: red; */
+    height: 40vh;
+    background-image: url(Imagens/woman-code.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#imagem-fundo h2 {
+    
+    color: white;
+    font-size: 2rem;
+    font-family: sans-serif;
+    width: 20%;
+    text-align: center;
+    font-weight: 900;
+    padding: 130px;
+    /* background-image: -webkit-linear-gradient( #fff, #023d68); */
+    /* background-clip: text; */
+    /* color: transparent; */
+    color: white;
+    text-transform: uppercase;   
+}
+
+#carreiras {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#carreiras h2 {
+    font-size: 2rem;
+    width: 50%;
+    font-weight: 700;
+    margin: auto;
+    
+    font-family: sans-serif;
+    color: #1472B7;
+    text-transform: uppercase;
+}
+#carreiras img {
+    width: 50%;
+    margin: 0 auto;
+}
+#carreiras p {
+    width: 80%;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    margin: auto;
+}
+footer {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(to bottom,#07161d1c,rgba(0, 0, 0, 0.111));
+}
+footer img {
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    
+}
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin: 0 0 20px 0;
+}
+footer p a {
+    color: #1472B7;
+    text-decoration: none;
+}
+footer p a:hover {
+    text-decoration: underline;
+}

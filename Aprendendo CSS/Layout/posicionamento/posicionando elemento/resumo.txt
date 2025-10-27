@@ -1,0 +1,23 @@
+
+
+Position - Permite nos posicionar nossos elemento na pagina 
+
+    position:static - é o atributo padrão que segue a ordem do nosso html
+
+    position:relative - Quando aplicamos continua com o comportamento estatico porem ao aplicar este valor permite redirecionar usando as direçao
+
+        top:30px - right:(30px) - bottom:(30px) - left:(30px) - este sao os valores 
+
+    position:absolute - Quando aplicamos este ele tambem permite ultilizar  (top-left-bottom- right) porem ele vai ignorar os outros elemento permitindo nos sobrescrevermos os conteudo e tambem os outros conteudo se adapta quando retiramos ele sendo assim como se o conteudo não existisse
+
+        top:0 - quando aplicamos este valor ele vai colocar no topo da tag bory porem se tivermos uma tag e colocamos o valor "position:relative" o conteudo vai se basear na tag pai 
+
+    
+
+    position:fixed - o conteudo vai continuar fixo mesmo que o usuario use o scroll 
+
+    position:sticky - esta tag tambem deixa o elemento fixo na tela porem quando chegar no limite do scroll o elemento ficará "preso" e nescessariamente precisamos colocar um direcionamento
+
+    z-index - Quando sobrescrevemos o conteudo para definir a posiçao de cada elemento ai usamos o z-index usando numeros para definiar a posição
+
+    z-index = 1;

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo as propiedades de exibição</title>
+    
+    <style>
+            .exemplo1 {
+                background-color: green;
+                display: inline;
+                padding: 200px;
+                margin: 200px;
+            }
+            .exemplo2 {
+                display: inline-block;
+                background-color: brown;
+                width: 200px;
+                height: 200px;
+                margin: 200px;
+            }
+            /* nav ul li {
+                display: inline-block;
+            } */
+            
+            nav ul li{
+                display: inline-block;
+                padding: 20px;
+                border-radius: 10px;
+                background-color: aqua;
+            }
+            nav ul li a {
+                text-align: center;
+                font-size: 1.3rem;
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-weight: 500;
+                
+            }
+            span {
+                background-color: brown;
+                padding: 10px;
+            }
+            #item2 {
+                visibility: hidden;
+            }
+            p {
+                width: 500px;
+                background-color: green;
+                vertical-align: center;
+            }
+    </style>
+
+</head>
+<body>
+
+
+    <div class="exemplo1">
+        Teste
+    </div>
+
+    <div class="exemplo2">Testando</div> 
+
+    <br> <br> <br>
+
+    <nav>
+            <ul>
+                    <li><a href="#">Meu link 1</a></li>
+                    <li><a href="#">Meu link 2</a></li>
+                    <li><a href="#">Meu link 3</a></li>
+            </ul>
+    </nav>
+
+    <span id="item1">Item 1</span>
+    <span id="item2">Item 2</span>
+    <span id="item3">Item 3</span>
+
+    <p>Fazendo teste</p>
+</body>
+</html>

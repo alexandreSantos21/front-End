@@ -1,0 +1,20 @@
+Aprendendo sobre a tag Embed
+
+essa tag serve serve para rodar conteudo externo dentro da nossa pagina
+
+atributos
+
+src - aqui iremos selecionar o caminho da nossa tags e podemos usar atributos visuais
+
+atenção - Esta tag ja esta caindo em desuso e no lugar dela usamos a tag semantica video
+
+Video - serve para rodar um codigo de multimidia no nosso site 
+
+Atributos da tag video
+controls - para colocar colocar os botoes de video
+autoplay - para rodar o video
+
+
+Aprendendo a tag iframe
+
+Está tag permite adionar no nosso site conteudo de terceiros porem mais amplamente como site-video etc...

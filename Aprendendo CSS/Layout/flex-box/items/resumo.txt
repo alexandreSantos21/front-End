@@ -1,0 +1,42 @@
+
+
+Estas tags são aplicadas nos items 
+
+order - este atributo permite nos ordenar nossos items sem precisar mudar na estrutura e para isso usamos valores numericos padrao ela vem com o valor 0 entao é apenas colocar numeros menor
+
+    order:-1; - Assim será o primeiro elemento
+
+flex-grow - esta propiedade controle o quantos nossos items devem crescer para preencher os espaços vazios e recebem valores numero positivos como proporção
+
+    flex-grow:1; - assim todos os items se esticará para preencher o espaço vazio
+
+
+flex-shrink - esta propiedade controla o quanto nossos items deevem encolher caso não caibam no nosso container e tambem recebe valores numero sem unidades
+
+    flex-shrink:1; - aplica o padrão 
+
+
+flex-basis - esta propiedade aplica aos items o tamanho que os items devem possuir antes de ser distribuido por tags como flex-grow ou seja define o tamanho inicial dos nossos items
+
+    auto - verifica se há um tamanho definido e usar como base ce nao estiver aplicará inline
+    min-content - pega o maior conteudo do elemento e usu como base para aplicar o tamanho mini
+    max-content - vai aplicar o maximo ou seja o tamanho do conteudo
+
+
+Short-hand das propiedades de items usamos a tag 
+
+    flex - e recebe os valor de (flex: flex-grow - flex-shrink - flex-basis)
+
+            flex: 1 1 auto;
+
+    
+    initial - é o valor padrão e corresponde ao valor 0 1 auto
+    auto - e corresponde 1 1 auto
+    none - para deixar os valores inflexiveis 
+    flex:1; - corresponde 1 1 auto 
+
+
+
+aling-self - Permite que nos sobreescreva os valor do flex-box que foram aplicados e permite nos alinhar apenas um item especifico e recebe os valores
+
+    stretch - flex-start - flex-end 

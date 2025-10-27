@@ -1,0 +1,14 @@
+Aprendendo as tags sobre formatação
+
+i - esta tag deixa o conteudo em italico
+b - deixa o conteudo em negrito sem semantica
+strong - deixa o conteudo em negrito porem com semantica
+u - deixa o conteudo dentro da tag com underline
+mark - coloca um marca texto no conteudo
+
+sub e sup - deixa o conteudo selecionado como elevado e o sub deixando na parte inferior
+blockquote - esta tag deixa o conteudo como uma citação 
+
+font - permite selecionarmos um conteudo e colocarmos atributos como color - face etc..
+
+

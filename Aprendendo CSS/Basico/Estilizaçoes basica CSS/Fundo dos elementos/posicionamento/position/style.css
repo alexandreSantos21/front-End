@@ -1,0 +1,29 @@
+
+div {
+    border: 10px dashed red;
+}
+
+
+#div1 {
+    width: 500px;
+    height: 500px;
+    background-image: url(img/imagem-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+    background-position: 50% 70%;
+    background-origin: border-box;
+
+}
+
+#div2 {
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(to right,#b2bac1,#02447a);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    /* border: 1px solid red; */
+    margin: 30px 0px 0px;
+    background-origin: content-box;
+}

@@ -1,0 +1,47 @@
+
+
+
+tipos 
+
+serifadas - sans serif - handwriting - display - monospace 
+
+para baixar fontes usamos o google.fonts 
+
+
+
+font-size - aumenta ou diminiu o tamanho do texto e tem algumas palavras chaves
+
+xx-small - x-small - small - medium - large - x-large - xx-large - esses sao tamanho com tamanhos pré-definidos 
+
+smaller - se baseia no elemento pai e sempre será menor que o tamanho pai
+larger - se baseia no elemento pai e sempre será maior que o elemento pai
+
+
+
+font-style - esta tag define o estilos da font recebendo valor italic - normal - oblique
+
+font-weight - define qual a espeçura que a font terá recebendo valores numericos e palavras chaves como normal - bold e elementos relativos como lighter - bolder
+
+lighter - ele irá aplicar a espeçura mais fino que o elemento pai
+bolder - ele irá aplicar a espeçura mais grossa que o elemento pai
+
+
+font-variant ela deixa em caixa alta a font porem em tamanho menor essa tag aceita 2 valores a normal que é a padrao e small-caps 
+
+font-stretch - esta tag muda o espeçamento das letras e possui varios valores porem normalmente as fonts não dão suporte o que dificulta o uso 
+
+line-height - esta tag muda o espeçamento superior e inferior das letras recebendo palavras chaves e valores numericos (obs: por questao de acessibilidade devemos usar 1.5 para facilitar na visualização)
+
+
+font - está é a short-hand dos texto para usar todas as propiedades em apenas uma
+
+    propiedades 
+
+    font-style
+    font-variant
+    font-weight
+    font-size/line - height
+    font-family 
+
+    seguindo nesta ordem 
+    

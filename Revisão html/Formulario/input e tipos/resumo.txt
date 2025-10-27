@@ -1,0 +1,35 @@
+
+Aprendendo sobre Input
+
+input servem para interagir com o usuario e permitir ao usuario selecionar dados
+
+Label - permite dar um nome ao input
+
+tipos de input
+
+input tipo:text - um campo de texto que permite adicionar textos
+
+input tipo: number - campo que permite inserir numeros e possui valor (max - min - step)
+
+input tipo: button - cria um botao que permite criar um botao para enviar o dados do formularios
+
+input tipo: range - cria um escrol lateral e recebe os atributos (max - min - step)
+
+input tipo: color - cria um campo que permite o usuario escolher uma color
+
+input tipo: email - permite o usuario inserir o email e possui a validaçao para verificar se possui @
+
+input tipo: url - permite ao usuario insrir email e possui a validaçao para verificar se foi digitado
+
+input tipo: date - cria um campo para o usuario digitar inserir uma data com dia - mes - adicionar
+
+input tipo: month - cria um campo que permite ao usuario inserir o mes e ano
+
+input tipo: hiden - é um input invisivel para no navegador usado para mandar dados escodidos
+
+input tipo: file - este input cria um campo que permite inserir arquivos e tem o atributo (multiple)
+
+input tipo: search - cria um campo que permite inserir dados com barras especificas
+
+
+

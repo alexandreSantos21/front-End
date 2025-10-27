@@ -1,0 +1,22 @@
+
+
+Seletores de atributo
+
+Podemos estilizar a tag ultilizando os atributos que a tag possui e para isso ultilizamos []
+
+[href = "www"] {
+    color:red;
+}
+
+
+Macetes que ultizamos antes do sinal de igual - [title () ="www"]
+
+( ~ ) - Para selecionar um palavra inserida no valor 
+( | ) - Tambem busca por uma palavra inserida no valor
+( ^ ) - Para selecionar um prefixo no valor
+( $ ) - Para selecionar o sufixo no valor 
+( * ) - Para selecionar qualquer coisa que esta inserido no valor
+
+
+
+

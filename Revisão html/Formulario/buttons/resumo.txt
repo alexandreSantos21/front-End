@@ -1,0 +1,25 @@
+
+Aprendendo sobre botoes e seus tipos
+
+a Tag button cria um botão e possuir os types como metodos diferentes
+
+atributos
+
+button type: button - apenas cria o botão e a forma basica
+button type: reset - cria um botão que vai possuir o metodo de limpar os campos do formulario
+button type: submite - cria um botao e o tipo permite enviar os dados
+
+
+Outros atributos - obs: importante vazer a validação no back-end pois estes atributos podem ser desativado pelo front
+
+
+required - cria uma obrigação que esse campo seja preenchidos
+disabled - desativa o campo porem fica visivel no site 
+
+metodos js
+
+Onclick - este metodos vai disparar uma açao apos ser clicado
+onSubmite - este metodos cria uma verificação para ver se os campos estão preenchidos
+mouseOver - este evento ativa quando o usuario passa o mouse
+
+

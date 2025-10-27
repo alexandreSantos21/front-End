@@ -1,0 +1,14 @@
+
+Aprendendo sobre os inputs radio e checkbox
+
+Ambos criam campos para o usuario selecionar escolhas porem usamos os checkbox como multiplas escolhas e radio como escolhas bolean 
+
+
+sobre o atributos name no checkbox 
+
+Quando usamos o atributos name no checkbox se marcarmos apenas o nome os valores serão atualizados como em variaveis entao precisamos adicionar "[]" para informar que são listas e assim salvar varios valores
+
+
+sobre o atributos name no radio
+
+Quando vamos usar o input radio o contexto será bolean então nao podemos permitir o usuario selecionar por exemplos "sim e nao" entao para evitar colocamos o mesmo valor no atributo "name"

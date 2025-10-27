@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Seletores e atributos</title>
+            <link rel="stylesheet" href="style.css">
+
+            <style>
+                    [title|="netflix"] {
+                        color: red;
+                    }
+                    [title~="prime video"] {
+                        color: blue;
+                    }
+                    [title~="sportify"] {
+                        color: white;
+                        text-decoration: none;
+                        font-family: sans-serif;
+                    }
+                    [title~="streaming"] {
+                        background-color: green;
+                        
+                    }
+                    [href^="https"] {
+                        color: white;
+                    }
+                    [href$="login"] {
+                        background-color: black;
+                    }
+                    [href*="me"] {
+                        background-color: orange;
+                    }
+                    [target = "_self"] {
+                        background-color: red;
+                    }
+            </style>|
+    </head>
+    <body>
+        
+        <ul>
+            <li>
+                <a href="https://www.netflix.com/browse/login" target="_blank" title="streaming netflix">Netflix</a>
+            </li>
+            <li>
+                <a href="https://www.primevideo.com" target="_self"  title="streaming prime video" t>Prime Video</a>
+            </li>
+            <li >
+                <a href="https://open.spotify.com/intl-pt" target="_blank" title="streaming sportify">Sportfiy</a>
+            </li>
+            <li>
+                <a>Disney Plus</a>
+            </li>
+        </ul>
+
+
+    </body>
+</html>

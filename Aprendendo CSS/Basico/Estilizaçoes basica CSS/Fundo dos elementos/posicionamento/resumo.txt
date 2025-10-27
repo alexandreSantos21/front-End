@@ -1,0 +1,40 @@
+
+
+background position - é ultilizado para definir o posicionamento da imagem de fundo de nossa imagem e pode receber varios tipos de valores como (direçao(center) - pixel - porcentagem - valores negativos )
+
+overflow - serve para criar um scroll lateral na caixa do conteudo
+
+background-attachement - serve para controlar a imagem de fundo quando temos o scroll e recebe 3 valores 
+
+valores e compotamento attachement
+
+    -fixed - a imagem fica fixa e quando o usuario usar o scroll a imagem move dando efeito de "sumindo
+
+    - scroll - a imagem fica fixa e sem o efeito de "sumir"
+
+    - local - a imagem move conforme o usuario usa o scroll 
+
+
+background-origin - Esta tag controla o comportamento da imagem de fundo em relação aos espaçamentos interno como paddin e borda
+
+    background-origin:border-box; - faz com que a imagem sobreponha a borda
+    background-origin:content-box; - faz com que a imagem repeite a margen e ocupa o padding
+    background-origin:padding-box; - Faz com que a imagem respeite o padding da caixa 
+
+
+Apredendo sobre background-clip - este é bem parecido com o origin em relaçao que controla como nosso fundo se comporta em relação a bordar 
+
+atributos da tag background-clip
+
+background-clip:padding-box - neste o fundo vai respeitar a margin
+background-clip: border-box - neste o fundo vai sobrepor a borda 
+background-clip:content-box - neste ele vai preenchear apenas a area do conteudo 
+
+como usar o background-clip: text; - Neste o fundo vai ser atribuido ao texto e para isso precisamos usar em conjunto as tags 
+
+    -webkit-background-clip: text; - para o navegador suportar 
+    -color: transparent; - e deixar tranparent para ficar visivel
+
+
+
+Apredendo sobre mesclagem - este conceito e basicamento unir uma imagem com um valor de fundo assim unindo duas coisa e para isso usamos a  tag - blackground-blend-mode e esta tag possui varios valores com diferentes comportamentos

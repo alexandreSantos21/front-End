@@ -1,0 +1,21 @@
+
+object-fit - é uma tag que usamos na imagem para definir como a imagem vai se comportar em nossa caixa
+
+
+object-fit:fill - este é o comportamento padrao na imagem é redmenciona a imagem para caber em nossa imagem assim podendo perder qualidade na imagem
+
+object-fil:container - este redimenciona o tamanho da imagem diminuindo a imagem para caber na imagem assim não perdendo qualidade porem as vesez não preenchendo o tamanho da caixa
+
+object-fit:cover - este atributo ele preenche o tamanho total da imagem e cobre as partes que nao couberem na caixa
+
+object-fit:none - este ele inseri na caixa o tamanho normal da imagem 
+
+object-fit:scale-down - este atributo é inteligente para definir e escolher entre object-fit:contain e object-fit:none e assim definir o que é menor
+
+
+
+Aprendendo sobre object-position 
+
+Este ele centraliza a imagem no eixo horizontal e vertical recebendo valores como pocentagem - pixel(negativo ou positivo) - palavras chave (center - right - top - bottom) 
+
+por padrao a tag vem como object-position:50% 50%; que centraliza ao meio da imagem

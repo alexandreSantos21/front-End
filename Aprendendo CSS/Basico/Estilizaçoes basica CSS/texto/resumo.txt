@@ -1,0 +1,51 @@
+
+
+text-tranform - Transforma a fonta do nosso texto deixando maisculo - minusculas - captalize - lowercasa
+
+text-align - Permite centralizar nossos texto na linha horizontal recebendo valores como top - right - center - left e justify que alinha o nosso texto no conteudo
+
+text-decoration - adiciona ou remove linhas no nosso texto baixo-cima - meio e recebe algumas propiedades 
+
+text-decoration-line - define onde queremos nossa linha recebe os valor underline(baixo) - overline(cima) - line-through(meio) e tambem é o shor-hand
+
+text-decoration-style - define qual o tipo de linha será adicionado recebendo os valor solid - dootted - dashed - wavy
+
+text-decoration- color - Define a cor da linha 
+
+text-decoration - thickness - determina qual será a especura da linha adicionada
+
+text-indent - determina a identação dos textos
+
+letter -spacing - permite determinar o espaçamento entre as  letras 
+
+word - spacing - Permite determinar o espaçamento de cada palavras no texto
+
+
+
+
+aprendendo sobre white-space permite controlar como nosso texto irá se comportar em relação aos espaços em branco
+
+
+    white-space: normal - é o comportamento padrão com quebra de linha e se adapta conforme o tamanho da caixa
+
+    white-space:nowap - com este valor a tag não ira quebrar quando o conteudo chegar ao tamnho da caixa 
+
+    white-space:pre - neste o texto irá se comportar da mesma maneira que ele foi inserido no html 
+
+    white-space:pre-wap - com este valor o texto ira se quebrar em 2 momentos quando ele ser quebrar no html e ao final do tamanho da caixa 
+
+    white-space-pre-wap - com esta propiedade os espaços em branco no html sao presenvados e tambem se quebra quando o conteudo bater no final da caixa
+
+    white-space:break-spaces - ele mantem os espaços em branco porem tambem quebra quando ouver uma sequecia grande
+
+
+    word-wap - define se a palavra deve quebrar ou não e recebe 2 valor normal que vai esperar a palavrar terminar para quebrar a linha e break-word onde vai quebrar quando tocar o final da caixa
+
+
+    word-break - define quando o nosso texto dever ter uma quebra de linha
+
+    writing-mode - Define a orientaçao do texto 
+
+    overflow:hidden - aqui ele vai esconder o conteudo
+
+    text-overflow - define uma orientaçao do texto   

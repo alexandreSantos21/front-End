@@ -1,0 +1,18 @@
+
+
+
+Para definir o posicionamento da imagem de fundo nos usamos o background-size que recebe alguns valores com comportamentos diferente
+
+
+background-size:auto - Por padrão vem com auto que insere a imagem no tamanho da caixa
+
+
+background-size:cover - ele preenche o tamanho inteiro da caixa podendo perder qualidade quando a imagem é pequena ele esticará e quando for grande mais ele cortará 
+
+background-size: contain - ele vai redmencinar para colocar a imagem inteiro sem perder qualidade porem pode nao preencher a caixa inteira
+
+background-size: 200px - este é por tamanho e nos usamos vales para atribuir a imagem
+
+background-size: 200px 100px - usamos para representar unidades de medica nos dois eixos x e y ou seja eixo horizontal e vertical 
+
+background-size: caminho, caminho - e para posicionar o background-size: usamos 2 valores separados por virgula 

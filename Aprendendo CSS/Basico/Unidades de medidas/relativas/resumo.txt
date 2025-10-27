@@ -1,0 +1,24 @@
+
+
+As unidades relativas são calculadas com base em outras unidades de outro elemento conhecido algumas delas são porcentagem - em - rem - vw - vh
+
+
+porcetagem - é calculada com base no elemento pai 
+
+
+A unidade "EM" é normalmente ultilizada nas fontes e ela se baseia no tamanho da font da tag pai 
+
+Quando ultizamos a unidade "EM" em um elemento que não seja texto temos ele tambem se baseia na font do elemento 
+
+
+A unidade "REM" em vez de se basear na font da tag pai ela se baseia na font definada na root do nosso arquivo ou seja no nosso html e por padrão tem o valor 16px 
+
+
+vw (viewport) - é a area visivel da pagina baseada no tamanho da tela do usuario e 1vw corresponde 1% da tela
+
+vh (viewheight) - tambem é paseada no tamanho da tela do usuario porem vh pega a altura para se basear por exemplo se a tela possuir 800px 10vh corresponde a 80px 
+
+vmin - com esta unidade ele vai escolher a menor propiedade entre vw e vh
+vmax - com esta unidade ele vai escolher a maior propiedade entre vw e vh
+
+podemos usar uma função calc para fazer calculos de unidade no css

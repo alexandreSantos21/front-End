@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Combinadores Filho</title>
+
+            <style>
+                .fundo-azul > p{
+                    background-color: lightblue;
+                    color: white;
+                    font-size: 20px;
+                    font-family: sans-serif;
+                    border: 1px solid black;
+                }
+                .fundo-verde  > p{
+                    background-color: lightgreen;
+                    color: white;
+                    font-size: 20px;
+                    font-family: sans-serif;
+                    border: 1px solid black;
+                }
+                div  span > p {
+                    background-color: lightpink;
+                    font-size: 20px;
+                    font-family: sans-serif;
+                    border: 1px solid black;
+                }
+                p{
+                    background-color: lightseagreen;
+                    font-size: 20px;
+                    border: 1px solid black;
+                    font-family: sans-serif;
+                    
+                }
+            </style>
+    </head>
+    <body>
+
+        <div class="fundo-azul">
+            <p>Paragráfo 1 dentro da div</p>
+            <p>Paragráfo 2 dentro da div</p>
+            
+            <span>
+                <p>Paragrafo 3 dentro da div,dentro do span</p>
+            </span>
+        </div>
+        <div class="fundo-verde">
+
+            <p>Paragráfo 1 dentro da div</p>
+            <p>Paragrafo 2 dentro da div</p>
+
+            <span>
+                <p>Parafrafo 3 Dentro da div,dentro do span</p>
+            </span>
+
+        </div>
+
+        <p>Parágrafo 4,fora da div</p>
+        <p>Parágrafo 5,fora da div</p>
+    </body>
+</html>

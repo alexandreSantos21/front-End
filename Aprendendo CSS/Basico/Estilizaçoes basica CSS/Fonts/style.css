@@ -1,0 +1,11 @@
+
+@import url(global.css);
+
+* {
+    
+    font-family: "BBH Sans Bogle", sans-serif;
+    font-weight: lighter;
+    font-variant: small-caps;
+    font-style: normal;
+}
+

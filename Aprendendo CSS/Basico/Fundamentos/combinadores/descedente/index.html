@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Combinadores Descedente</title>
+            <style>
+
+                
+                .fundo-verde li {
+                    background-color: lightgreen;
+                    font-family: sans-serif;   
+                }
+                .fundo-azul li {
+                    background-color: lightblue;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                #lista-01,#lista-02 div {
+                    font-size: 20px;
+                    font-family: sans-serif;
+                    color: green;
+                    font-style: italic;
+                }
+                #lista-03 div {
+                    color: blue;
+                    font-size: 20px;
+                    font-family:Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                }
+                
+
+            </style>
+    </head>
+    <body>
+
+        <ul>
+            <li id="lista-01" class="fundo-verde">
+                <div>Item 1</div>
+                <ul id="sublista-01">
+                    <li>Sub-item A</li>
+    
+                    <li>Sub-Item B</li>
+                </ul>
+
+            </li>
+            <li id="lista-02" class="fundo-verde">
+                <div>Item 2</div>
+                <ul id="sublista-01">
+                    <li>Sub-Item A</li>
+                    <li>Sub-Item B</li>
+                </ul>
+            </li>
+            <li id="lista-03" class="fundo-azul">
+                <div>Item 3</div>
+                <ul id="sublista-01">
+                    <li>Sub-Item A</li>
+                    <li>Sub-Item B</li>
+                </ul>
+            </li>
+        </ul>
+        
+    </body>
+</html>

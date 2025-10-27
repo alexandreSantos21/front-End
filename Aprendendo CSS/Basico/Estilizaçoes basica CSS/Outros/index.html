@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Outras propiedades importantes</title>
+
+            <style>
+
+                body {
+                    height: 1000px;
+                    
+                    
+                }
+                .exemplo {
+                    background-color: purple;
+                    border: 5px solid orange;
+                    color: white;
+                    padding: 20px;
+                    
+                }
+                .exemplo img {
+                    width: 20%;
+                    opacity: .5;
+                }
+                div {
+                    background-color: peru;
+                    width: 300px;
+                    height: 200px;
+                    border: 3px solid brown;
+                    font-size: 20px;
+                    /* overflow: visible; */
+                    /* overflow: hidden; */
+                    /* overflow: scroll; */
+                    overflow-y: scroll;
+                    overflow-x: auto;
+                }
+                @import url('./reset.css');
+            </style>
+    </head>
+    <body>
+
+        <h2>Propriedades <code>opacity</code> </h2>
+        <p>Define o nivel de opacidade (tranparecia) de um elemento</p>
+        
+        <p><i>exemplo</i></p>
+
+        <div class="exemplo">
+            <h3>Trilha de CSS</h3>
+            <p>Conhecendo as propiedades CSS uma a uma</p>
+            <img src="imagens-dio.webp" alt="imagem">
+        </div>
+
+        <hr>
+
+        <h3>Propriedade <code>overflow</code></h3>
+
+        <p>Controla como o conteudo deve ser exibido caso ultrapasse os limites do container  </p>
+        <p><i>Exemplo:</i></p>
+        <div class="texto">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quisquam ratione cum repudiandae praesentium? Perspiciatis, esse nemo architecto, ut debitis quibusdam perferendis accusantium, officia error eos modi tempore quisquam eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reprehenderit rem soluta et, labore suscipit modi cumque expedita saepe nobis, minus hic doloribus quia aspernatur! Quae aliquid fuga soluta labore?</p>
+        </div>
+    </body>
+</html>

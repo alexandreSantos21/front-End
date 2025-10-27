@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Unidades relativas</title>
+
+            <style>
+                    .exemplo-1-pai {
+                        width: 500px;
+                        height: 500px;
+                        background-color: rgb(100, 32, 5);
+                        
+                    }
+                    .exemplo-1-filho {
+                        width: 50%;
+                        background-color: lightsalmon;
+                        height: 50%;
+                        text-align: center;
+                        font-size: 30px;
+                    }
+                    #text-id {
+                        background-color: lightblue;
+                        width: 500px;
+                        border: 3px solid rgb(67, 67, 228);
+                    }
+                    #text-porcent {
+                        background-color: lightsalmon;
+                        border: 3px solid salmon;
+                        width: 50%;
+                        
+
+                    }
+
+</style>
+    </head>
+    <body>
+        
+        <p id="text-id">
+            usando width:500px
+        </p>
+        
+        <p id="text-porcent">Usando porcetagem 50%</p>
+
+
+        <p>No exemplo abaixo a caixa nao ira mudar pois o elemento interno esta definido como unidade medida absoluta pixel</p>
+        <div class="exemplo-1-pai">
+                possui 500px
+                <div class="exemplo-1-filho">possui 50%</div>
+        </div>
+
+
+    </body>
+</html>

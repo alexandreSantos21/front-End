@@ -1,0 +1,10 @@
+
+
+Combinadores filho
+
+Nos ultizamos o sinal (>) para marcar que aquela tag é filha direta de outra assim especificando a tag
+
+
+div > p {
+    assim outras possiveis tag ultizando P não serao afetadas
+}

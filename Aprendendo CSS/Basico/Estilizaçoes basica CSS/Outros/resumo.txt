@@ -1,0 +1,18 @@
+
+
+opacity - cria uma opacidade indo de 0 até 1
+
+over-flow - Esta tag lida quando o conteudo passa o tamanho da nossa caixa e recebe 4 valores
+
+over-flow: visible; - Aqui o conteudo vai mostrar mesmo que exceda o tamanho e vem padrao
+
+over-flow: hidden; -  vai ocultar o conteudo que excede o conteudo
+
+over-flow: scroll; - Vai criar uma rolagem lateral e vertical no conteudo independendo do tamanho do conteudo
+
+over-flow:auto; - vai criar um scroll lateral e vertical apenas se o conteudo for maior
+
+tambem podemos usar estes valor em eixos especificos
+
+Quando vamos inicar um projeto muito importante fazendo um reset css pegando no sites 
+

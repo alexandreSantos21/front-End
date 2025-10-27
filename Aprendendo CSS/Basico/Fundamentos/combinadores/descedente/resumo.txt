@@ -1,0 +1,6 @@
+
+Combinador descendendo é quando especificamos um item filho dentro da tag pai e para isso nos fazemos uma rota dando um espaço por exemplo
+
+tagPai tagFilha {
+    Neste exemplo apenas a tag filha receberá a estilização
+}

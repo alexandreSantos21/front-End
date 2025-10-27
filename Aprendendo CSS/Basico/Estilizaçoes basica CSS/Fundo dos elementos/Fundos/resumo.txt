@@ -1,0 +1,15 @@
+
+
+Para colocar uma imagem de fundo nos usamos o background-imagem:url(caminho) e podemos colocar uma sobrepondo colocando ela no mesmo background-image separando por virgula
+
+
+Para fazer um efeito de degradê usamos o background-imagem: linear-gradent podendo direcionar colocando no começo a direção (to top,right,left,bottom)
+
+para fazer um efeito dregradê em circulo nos usamos o background-image: radial-gradient 
+
+para criar fundo com efeito repitido nos usamos o background-image: repeating-linear-gradient recebendo os valores na ordem (Direção - primeira cor - 0 - largura,segunda cor largura anterior e outra largura ) 
+
+    to top, blue 0 20px,orange 20px 40px
+
+
+E para buscar linear pronto usamos o site - projects.verou

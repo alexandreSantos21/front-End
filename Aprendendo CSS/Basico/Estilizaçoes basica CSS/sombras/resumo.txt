@@ -1,0 +1,15 @@
+
+
+box-shadow - Aplica uma sombra na nossa caixa e recebe os valores 
+
+box-shadow - inset(sombra por dentro) - eixo-x - eixo-y - desfoco - espalhamento - cor 
+
+normalmente apenas usamos:  eixo-x eixoy  desfoco  cor
+
+
+filter:drop-shadow ( eixo-x eixo-y desfoco cor) - Quando a imagem é transparente usamos esta tag para colocar uma sombra nos elementos da imagem 
+
+
+Podemos ultilizar sombras nos textos ultilizando a tag text-shadow: 
+
+    text-shadow: eixo-x eixo-y desfoco cor

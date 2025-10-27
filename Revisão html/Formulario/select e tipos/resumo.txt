@@ -1,0 +1,11 @@
+Apredendo sobre Select e seu tipos
+
+O select é uma lista de itens pré-definidos tendo seus filhos dentro 
+
+atributos
+
+option - usamos essa tag para criar os filhos dentro do select 
+multiple - permite selecionar mais de uma opçao usando control
+select - permite deixar um dos campos selecionado
+value - para o servidor identeficar o valor
+name 

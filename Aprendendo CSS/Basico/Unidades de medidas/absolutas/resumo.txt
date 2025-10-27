@@ -1,0 +1,10 @@
+
+
+Unidades de medidas absolutas são medidas que não mudam independente do dispositivo sempre será aquele tamanho
+
+temos varios tipos como cm - mm  - in(polegadas) - porem o mais usado é px
+
+densidade - é a quantidade de pixel que vai em uma parte da tela para representar 1px 
+
+pixel fisico - São os pontinho representado na tela 
+pixel logico - é como os elementos serão representados independentemente da densidade

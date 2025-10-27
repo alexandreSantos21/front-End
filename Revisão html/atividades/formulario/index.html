@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Criando um formulario</title>
+            <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Formulario de cadastro</h1>
+        <form action="#" method="get" onsubmit="">
+            <fieldset>
+                <legend>Informação pessoal</legend>
+                <div class="row">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+                </div>
+            
+                <div class="row">
+                    <label for="work">Profissão:</label>
+                    <input type="text" id="work" placeholder="Digite sua profissão" required>
+                    <label for="empresa">Empresa:</label>
+                    <input type="text" name="empresa" id="empresa" placeholder="Nome da empresa">
+                </div class="row">
+            </fieldset>
+            <fieldset>
+
+                <legend>Localização</legend>
+            
+                <div class="row">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" required placeholder="Nome do bairro">
+                    <label for="number">numero</label>
+                    <input type="number" name="number" id="number" placeholder="Digite seu numero">
+                </div>
+                <div class="row">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" name="bairro" id="bairro" required placeholder="Digite o nome do bairro">
+                    <label for="cidade">Cidade/UF:</label>
+                    <input type="text" name="cidade" id="cidade" placeholder="Nome da cidade">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contato:</legend>
+                <div class="row">
+                    <label for="phone">Celular:</label>
+                    <input type="number" name="phone" id="phone" required placeholder="numero do celular">
+                    <label for="whats">Whatsapp:</label>
+                    <input type="number" name="whats" id="whats" required placeholder="Numero do whatsapp">
+                </div>
+                <div class="row">
+                    <label for="linkedin">Linkedin</label>
+                    <input type="text" name="linkedin" id="linkedin" required placeholder="Informe seu linkedin">
+                    <label for="github">GitHub</label>
+                    <input type="text" name="github" id="github" required placeholder="Infome seu gitHub">
+                </div>
+            </fieldset>
+            <div class="botoes">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+    </body>
+</html>

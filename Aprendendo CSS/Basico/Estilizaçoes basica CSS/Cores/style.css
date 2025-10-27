@@ -1,0 +1,41 @@
+
+body {
+    background-color: gray;
+}
+
+
+li {
+    background-color: aqua;
+
+}
+
+#pre-definidos {
+    background-color:transparent;
+}
+
+#rgb {
+    background-color: rgb(255,100,30);
+    color: rgb(255,255,255);
+}
+#rgba {
+    background-color: rgba(255, 0, 0, 1.0);
+    color: rgb(255,255,255,0.5);
+}
+#hex {
+    background-color: #ff00a0;
+    color: #00af2d;
+}
+#hex-tranparencia {
+    background-color: #24faaa;
+    color: #ffffffcc;
+
+}
+div {
+    height: 1px;
+    background-color: black;
+}
+
+#hsl {
+    background-color: hsl(0,100%,30%);
+    color: hsl(0,100%,30%,.2);
+}

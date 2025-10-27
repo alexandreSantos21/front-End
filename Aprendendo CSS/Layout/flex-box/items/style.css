@@ -1,0 +1,33 @@
+
+#container1 {
+    background-color: blueviolet;
+    display: flex;
+    width: 800px;
+    height: 400px;
+    margin: 20px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: row;
+    
+    
+
+}
+.item {
+    background-color: yellow;
+    width: 120px;
+    height: 60px;
+
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    flex-basis: 10px;
+}
+#item1-1{
+
+    background-color: red;
+    flex-basis: 80px;
+}
+
+#item2-1 {
+    flex-basis: 0;
+}

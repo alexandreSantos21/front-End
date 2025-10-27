@@ -1,0 +1,40 @@
+
+Acessibilidade - temos que escrever nosso codigo de forma que ajudem pessoas com deficiencia acessar nosso site
+web scraping - São robos e ações que entram no site e coletam os dados e salvam no banco de dados  
+
+tags semantica estrutural
+
+header - vamos adicionar o conteudo do cabeçalho nesta tag
+main - vamos adicionar o conteudo principal contendo a nossa principal funcionalidade temos que ter apenas 1 main por pagina
+
+footer - aqui fica o conteudo do rodapé
+
+adress - aqui vamos adicinar endereço deixando semantico e italico
+
+section - usamos para adicionar seções 
+
+
+aside - adicionamos neste funcionalidades que nao tem relaçao direta com o codigo
+
+nav - esta estrutura sao usadas para receber links é uma estrutura de navegagção
+
+article - Usamos para inserir conteudo de artigos
+time pubdate - Quando queremos colocar uma data e se for uma data de allgo que foi publicado usamos o pubdate
+
+blockquote - Usamos para incerir uma citação e visualemte tem um recuo
+
+Q - Este tambem é usado para fazer uma citaçao porem pequena e visualmente coloca entra aspas
+
+figure - esta e o container pai de imagens e tudo que ficar dentro esta relacionado
+
+figcapture - Esta tag nos usamos para inserir uma midia de forma semantica
+
+picture - permite colocar varias imagens e carregar de acordo com o tamanho da tela do usuario
+
+Seo - é um conjunto de tecnicas ultilizado para otimizar o sistema de busca no nosso html
+
+i - deixa em italico sem semantica 
+em - deixa em italico com semantica
+
+b - deixa em negrito sem semantica
+strong - deixa em negrito com semantica

@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tagesschrift&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(imagem/imagem-fundo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px 40px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    backdrop-filter: blur(5px);
+}
+.container h1 {
+    text-align: center;
+    font-size: 36px;
+}
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+    
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    outline: none;       /*    Linha que aparece quando clicada no input*/
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    border-radius: 40px;
+    
+}
+.input-box input::placeholder {
+    color: #9f9c9c;
+    font-size: 17px;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.remenber-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+}
+.remenber-forgot label input {
+    accent-color: #fff;
+    margin-right: 5px;
+}
+.remenber-forgot a {
+    text-decoration: none;
+    color: #fff;
+
+}
+.remenber-forgot a:hover {
+    text-decoration: underline;
+}
+.login {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;/*  Deixa a mãozinha quando passa em cima */
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: 20px;
+}
+.login:hover {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.4s;
+}
+.register-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+    
+
+}
+.last-link {
+    text-decoration: none;
+    color: #dadada;
+    font-weight: 500;
+}
+.register-link:hover {
+    text-decoration: underline;
+    
+}

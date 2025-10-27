@@ -1,0 +1,14 @@
+
+
+Tranparent - Este atributo faz com que a cor da tag erdem o mesma atribuido da tag pai
+
+RGB - Tem como cores primarias red - green - blue indo do 0 ao 255
+
+RGBA - A diferença que possuiu o Alpha no ultimo bloco que é tranparecia este valor vai do 0 ate o 1.0 sendo 0 totalmente tranparente e 1 nada tranparente
+
+
+hexadecimal - dividido em 3 bloco red - green - blue cada cor sendo representado por duas letras e numento indo do 0 ate 9 e A até o F 
+
+hexadecimal com tranparecia - Ao final do hexadecimal é atribuido tranparecia indo do 0 Até F sendo 0 totalmente tranparente F nada tranparente
+
+hsl - dividido em 3 bloco matriz - saturação - luminosidade sendo de 0 á 360

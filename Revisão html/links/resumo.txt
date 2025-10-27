@@ -1,0 +1,15 @@
+Aulas sobre links
+
+usamos o sites para permitir ao usuario navegar entre o nosso propio site ou outros sites e para criar links usamos a tag "a"
+
+atributos
+
+target - self padrao abre no propio site - blank = abre em outro site
+A - Para criar o link 
+title - cria um balão com um texto colocado pelo propio desenvolvedor para ajudar o usuario
+
+dicas 
+
+devemos usar o atributo target="self" quando queremos fazer navegação no nosso propio site
+e usar o target="_black" quando estivermos fazendo uma navegação para outro site
+

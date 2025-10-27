@@ -1,0 +1,12 @@
+
+
+Aprendendo sobre tags de estrutura do codigo
+
+inblock - ocupa a linhas inteira 
+inline - ocupa apenas o conteudo
+
+div - esta tag serve para estruturar o nosso bloco de codigo tem o atributo inblock 
+span - serve para estrutura uma parte do codigo sem semantica e tem o atributo inline
+
+fieldset - serve para estruturar o codigo ou formularios permitindo separar por assuntos
+legends - para colocar uma legenda no trecho que delimitamos

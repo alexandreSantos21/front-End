@@ -1,0 +1,26 @@
+
+#quadrado {
+    width: 300px;
+    height: 300px;
+    background-color: #ff12aa;
+    background-image: url(img/imagem-fundo.jpg),url(img/imagens-fundo-raio.jpg);
+    
+    /* background-image: linear-gradient(#12aaff,#aaaaff ); */
+    /* background-image: radial-gradient(#ffaaff,#a1ff11); */
+    /* background-image: repeating-linear-gradient(to right,blue 0 20px,orange 20px 40px); */
+
+
+    /* background-color: #fff;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em; */
+}
+
+#quadrado2 {
+    background-color: #ff12aa;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    
+}

@@ -1,0 +1,18 @@
+Estudando sobre formularios
+
+Usamos a tag "form" Para criar formularios 
+
+atributos
+
+name = usamos para colocar nomes que serao enviados para os servidores para identifficar os valores
+
+method(get e post) - este atributos serve para definir qual será a forma que os dados vão ser enviados
+method (get) - Os dados são enviados atraves da url assim sendo inseguro
+method (post) - os dados são enviados atraves de requisição sendo assim mais seguro
+
+Action - Serve para mandar os dados do formulario para um local assim colocamos o endereço do servidor
+
+onsubmit - este é um evento java script e usamos o valor alert para mostrar um campo de texto
+
+target - tambem podemos ultilizar este atributos nos formulario e quando enviado sera criado outra aba
+
