@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: linear-gradient(to right,#2D2325,#8E5D52);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 15vh;
+    border-bottom: 2px solid #ECD6C4;
+}
+header div img {
+    width: 70px;
+    object-fit: scale-down;
+    border-radius: 50%;
+    position: center center;
+}
+header nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: 'Roboto',sans-serif;
+    color: #ECD6C4;
+    
+}
+header nav a:hover {
+    transition: .6s;
+    background-color: #ECD6C4;
+    padding: 20px;
+    color: #2D2325;
+    border-radius: 20px;
+
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.container-principal {
+    display:flex;
+    justify-content: space-between;
+}
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.informacoes h1 {
+    color: #ECD6C4;
+    font-size: 4rem;
+    font-family: 'Roboto';
+    
+}
+.informacoes p {
+    font-size: 1.3rem;
+    width: 500px;
+    color: #ECD6C4;
+    font-family: 'Roboto';
+    
+}
+.informacoes a {
+    color: aliceblue;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background-color: #ECD6C4;
+    width: 200px;
+    padding: 15px;
+    color: #2D2325;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.informacoes a:hover {
+    padding: 20px;
+    transition: .7s;
+}
+
+.list {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #ECD6C4;
+    font-family: 'Roboto';
+    
+}
+
+.list h2 {
+    font-size: 2rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+.list ol li {
+    margin: 20px;
+}
+
+.linha {
+    border-top: 2px solid #ECD6C4;
+    width: 250px;
+    margin:0 0 30px;
+    align-self: center;
+    
+}
+footer {
+    height: 20vh;
+    border-top: 2px solid #ECD6C4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
