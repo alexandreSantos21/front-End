@@ -1,0 +1,114 @@
+Grid é um recurso que permite criar layouts em grades bidimencionais
+
+Nomenclaturas
+
+    grid container - é o elemento pai que envolve todos os items
+    Grid item - São os elementos dentro do container
+    grid column - São as faixas na linha horizontal 
+    grid row - sao as faixas na linha vertical
+    grid gap - sao espaços entre os items
+    grid lines - sao as divisorias que compõem a estrutura da grade 
+    grid cell - Sao os items que compoem a estrutura
+
+comportamentos 
+
+    display: grid; - inicia o grid e por padrao é do tipo block
+    display: inline-grid; - inicia o grid porem o tipo será inline
+
+unidade de medida - FR
+
+    Esta unidade é usada em conjunto com o grid e representa uma fração
+    min-content - com esta medida ele vai ser basear no menor conteudo da linha ou coluna
+    max-content - com esta medida ele vai se basear no maior conteudo da linha ou coluna
+
+    auto - ele vai se ajustar automaticamente 
+
+funçao repeat - Quando precisamos repetir um valor podemos usar estao funçao ela recebe 2 valor 
+    
+    repeat - (quando vezes - a unidade de medida) ou seja: repeat(10,2fr) 
+
+    valores para o repeat 
+
+    auto-fill - este valor ira manter mesmo que o espaços estejam vazios 
+    auto-fit - este vaor quando ouver espaços os valores serao recolhidos
+
+
+grid implicito - É quando temos mais caixa que o definidos nas linhas e colunas entao ele uma linha a mais e posiciona na parte de baixo
+
+    grid-auto-column - com esta tag defimos o tamanho coluna da caixa que sera reposicionada
+    grid-auto-rows - com esta tag definimos o tamanho da linha da caixa que foi repocionada
+    grid-auto-flow - com esta tag define onde a caixa sera reposiciona na column ou rows
+
+    tags auto - essas tag fará que a linha ou coluna aumente junto se o item for alterado assim se adptando 
+
+tamanho minimo e maximo das faixas -  é uma funçao que irá receber tamanho minimo e maximo da caixa 
+
+    minmax(minimo - maximo)
+
+
+grid area - Esta tag serve como um short hand para alocar os nossos item e recebe os valores 
+
+    grid-area: grid-rows-start  / grid-coluns-start / grid-rows-end / grid-coluns-end;
+
+
+    porem tambem ultilizamos de outras maneiras com o - Grid-template-areas: com esta tag vamos dar nome e definir como será o layout da nossa pagina 
+
+
+   grid-template-areas : "cabeça cabeça cabeça" "aside main main" "aside main main" "footer footer footer" 
+
+   E após colocamos na tag usando o grid-area o nome que foi dado acima
+
+   header {
+        grid-area: cabeça;
+   }
+
+Short-hand  Grid-template - Esta tag permite definir as colunas e linhas e areas em apenas um tag
+
+    definindo apenas linhas e colunas - 
+
+        grid-template: linha / colunas = grid-template:repeat(3,200px) / repeat(4,1fr)
+
+    definindo linhas,colunas e areas -quando usamos completamente as colunas devem ser definidas 1 á 1
+
+        grid-template: "areas areas areas " linha    grid-template:"header header header" 200px
+                        "area "area area linha    =  "aside main main" 500px
+                        "area area area linha         "footer footer footer" 200px 
+                        /coluna coluna coluna           / 1fr 1fr 1fr 1fr
+
+
+
+propiedade gap - é um espaçamento nas linhas entre os items e ultilizamos 
+
+    column-gap - row gap - gap
+
+grid - Esta tag pode receber todos os valores do grid
+
+    grid : row / colums
+
+
+justify-items - este valor alinha o item no linha vertical 
+aling-items - este valor alinha os item na linha horizontal
+
+Place-items - este é um short-hand de justify-item e aling-items 
+
+    place-items:vertical horizontal
+
+
+justify-content - esta propiedade alinha o container no espaço que ele estiver na linha horizontal e recebe os valores 
+
+        start - center - end - space-around - space-between - space-evelyn 
+
+aling-content - esta propiedade alinha o cotainer na linha vertical caso ele ja nao esteja ocupando todo o espaço e recebe os valores 
+
+
+        start - center - end - space-around - space-between - space-evelyn 
+
+Place-items - esta tag é a short-hand do justify-content e align-content
+
+
+justify-self - Alinha um item especifico na celular que ele esta inserido na linha horizontal e recebe os valores 
+
+    start - center - end - stretch
+
+align-self - Alinha um item especifico na celular que esta inserido na linha vertical e recebe os valores 
+    start - center - end - stretch

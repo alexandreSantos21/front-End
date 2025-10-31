@@ -1,0 +1,26 @@
+
+body {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,200px);
+    grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer";
+
+}
+
+
+header {
+    background-color: orange;
+    grid-area: header;
+}
+main {
+    background-color: brown;
+    grid-area: main;
+}
+footer {
+    background-color: gray;
+    grid-area: footer;
+}
+aside {
+    background-color: green;
+    grid-area: sidebar;
+}

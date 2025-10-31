@@ -1,0 +1,40 @@
+
+
+
+.container {
+    background-color: yellow;
+    padding: 10px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: minmax(50px,100px) minmax(100px,300px);
+    grid-template-rows: repeat(2,minmax(50px,100px));
+    /* grid-template-columns:repeat(3,minmax(100px,300px) minmax(100px,300px)); */
+
+    /* grid-auto-rows: minmax(100px,200px); */
+    /* grid-auto-columns: minmax(100px 200px); */
+    
+}
+#item {
+    border: 1px solid black;
+}
+.item-1{
+    background-color: aqua;
+}
+.item-2{
+    background-color: rgb(165, 176, 14);
+}
+.item-3{
+    background-color: rgb(163, 5, 63);
+}
+.item-4{
+    background-color: rgb(198, 90, 50);
+}
+.item-5{
+    background-color: rgb(135, 48, 143);
+}
+.item-6{
+    background-color: rgb(44, 44, 139);
+}
+.item-7{
+    background-color: rgb(37, 133, 13);
+}

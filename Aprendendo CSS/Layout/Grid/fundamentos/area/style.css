@@ -1,0 +1,30 @@
+
+.container {
+    border: 1px solid black;
+    background-color: gray;
+    padding: 10px;
+
+    display:grid;
+    grid-template-columns: [primeira-coluna] 1fr [segunda-coluna] 1fr [terceira-coluna] 1fr;
+    grid-template-rows: [primeira-linha] 1fr [segunda-linha] 1fr ;
+    height: 300px;
+
+}
+
+.item {
+    background-color: lightgreen;
+    text-align: center;
+    border: 1px solid black;
+    margin: 3px;
+    border-radius: 5px;
+    
+}
+#select {
+    background-color: brown;
+    color: white;
+
+    grid-area: segunda-linha / segunda-coluna / segunda-linha / terceira-coluna;
+
+    /* grid-column: segunda-coluna/ terceira-coluna;
+    grid-row: segunda-linha /segunda-linha; */
+}

@@ -1,0 +1,37 @@
+
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 3fr 1fr;
+    grid-template-areas: "navbar logo"
+    "sidebar main"
+    "sidebar footer";
+    margin: 0;
+}
+
+img {
+    width: 200px;
+}
+nav {
+    background-color: rgb(29, 117, 117);
+    grid-area: navbar;
+}
+div {
+    background-color: aquamarine;
+    grid-area: logo;
+}
+
+aside {
+    background-color: blueviolet;
+    grid-area: sidebar;
+}
+main {
+    background-color: brown;
+    grid-area: main;
+}
+footer {
+    background-color: lawngreen;
+    grid-area: footer;
+}
