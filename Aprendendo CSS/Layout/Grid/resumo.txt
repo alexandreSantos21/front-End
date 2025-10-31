@@ -112,3 +112,7 @@ justify-self - Alinha um item especifico na celular que ele esta inserido na lin
 
 align-self - Alinha um item especifico na celular que esta inserido na linha vertical e recebe os valores 
     start - center - end - stretch
+
+
+place-self - esta tag é uma short-hand para alinhar os items especifico na celular é um short-hand de aling-self justify-self 
+
