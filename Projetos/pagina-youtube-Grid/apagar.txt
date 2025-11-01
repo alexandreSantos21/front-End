@@ -1,0 +1,52 @@
+                        <figure class="coluna1">
+                                <img src="img/main/Video (3).png" alt="image do container do video">
+                        </figure>
+
+                        <figure class="coluna1">
+                                <img src="img/main/Video (4).png" alt="image do container do video">
+
+                        </figure>
+
+                        <figure class="coluna1">
+                                <img src="img/main/Video (5).png" alt="image do container do video">
+                        </figure>
+
+                        <figure class="coluna1">
+                                <img src="img/main/Video (6).png" alt="image do container do video">
+                        </figure>
+
+                        
+                        <figure>
+                                <img src="img/main/Video (7).png" alt="image do container do video">
+                        </figure>
+
+                        <figure>
+                                <img src="img/main/Video (8).png" alt="image do container do video">
+                        </figure>
+
+                        <figure>
+                                <img src="img/main/Video (9).png" alt="image do container do video">
+                        </figure>
+
+                        <figure>
+                                <img src="img/main/Video (10).png" alt="image do container do video">
+                        </figure>
+
+                        <figure>
+                                <img src="img/main/Video (11).png" alt="image do container do video">
+                        </figure>
+
+                        <figure>
+                                <img src="img/main/Video (12).png" alt="image do container do video">
+                        </figure>
+
+                        <figure>
+                                <img src="img/main/Video (13).png" alt="image do container do video">
+                        </figure>
+
+                        <figure>
+                                <img src="img/main/Video (14).png" alt="image do container do video">
+                        </figure>
+
+
+                         
