@@ -1,0 +1,85 @@
+/* font-family: "Roboto", sans-serif; */
+/* font-family: "Montserrat", sans-serif; */
+/* font-family: "Open Sans", sans-serif; */
+/* font-family: "Momo Signature", cursive; */
+
+
+
+@media screen and (max-width:1000px){
+    iframe {
+        
+        border-radius: 10px;
+        width: 90%;
+    }
+}
+@media screen and (min-width:1000px) {
+    iframe {
+        border-radius: 10px;
+        width: 60%;
+        height: 70vh;
+    }
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+header nav {
+    height: 10vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8ED7F0;
+    border-radius: 0 0 20px 10px ;
+    
+}
+header nav a img {
+    width: 15%;
+}
+header nav h1 {
+    font-family: "Momo Signature", cursive;
+    text-align: center;
+    color: #014351;
+}
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+
+.aula h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: "Momo Signature", cursive;
+    font-weight: bold;
+}
+
+.aula p {
+    font-size: 1.5rem;
+    text-align: justify;
+    font-weight:500;
+    font-family: "Roboto",sans-serif;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.linha {
+    margin: 20px 0;
+    height: .1vh;
+    width: 100%;
+    border: 1px solid #014351;
+}

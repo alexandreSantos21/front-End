@@ -1,0 +1,8 @@
+  0D98B7 - D2EBE7
+
+  primary - 0B8FAC
+  secundary - 7BC1B7 
+
+  light - D2EBE7
+
+  light blue - 8ED7F0
