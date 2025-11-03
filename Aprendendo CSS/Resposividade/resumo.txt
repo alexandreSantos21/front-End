@@ -1,0 +1,105 @@
+
+
+
+Resposividade - São um conjunto de tecnicas que ultilizamos para desenvolver paginas que se adptem em diferentes tamanhos de telas e dispositivos.
+
+
+
+layout multicolunas - Com esta propiedade nos podemos dividir nosso site em colunas e assim recalculando a quantidade de colunas conforme o tamanho do width e usamos as tags 
+
+    column-width : - com esta tag o conteudo será dividido em colunas e se usamos unidades de medida absoluta e a quatidade de colunas aumentará ou diminuirá conforme o tamanho do width
+
+    column-rule - funciona como o border ele cria uma borda entre as colunas
+
+    column-gap - cria um espaçamento entre as  colunas
+
+
+Flex-box - Podemos criar layout flexiveis ultilizando flex-box assim permitindo a pagina se adaptar ultlizando as tags 
+
+    flex-basis - flex-wrap - flex-grow - flex-shink - justfy-content etc...
+
+
+
+Grid - Quando ultilizamos as unidades de medida Fr elas ficam responsivas
+
+
+
+Apredendo Sobre a meta tag viewPort
+
+    width=device-width - Sobrescreve a configuraçao padrao dos navegadores para a largura da janela 
+
+    initial-scale - Define zoom inicial da pagina
+
+    height - Define a altura especifica para a viewport
+
+    Minimum-scale - define o zoom minimo da pagina
+
+    maximum-scale - define o zoom maximo da pagina
+
+    user-scalable:no - Impede que o usuario aplique zoom
+
+
+Media queries - São regras que ultilizamos para estilizar de acordo com o tamanho da tela do usuario e para isso ultilizamos os media Queries 
+
+    @media (min-width:320px) and (max-width:768px) {
+
+        tag{
+            estilizaçoes
+        }
+    }
+
+
+    Tags com inicio @ são regras Css que determim como o css deve se comportar e como deve executar
+
+media type - Existem diferentes tipos de media que podemos aplicar 
+
+    all - corresponde a todos os dispositivos
+    print - Documentos de pré visualização de impressao 
+    screen - corresponde a dispositivos com tela integrada 
+    spreech - corresponde a dispositivos que leem o conteudo de forma audivel 
+
+
+media Fetures - Configura com quais recusos de midia quer aplicar os estilos 
+
+    min - max - width - Destecta largura ou altura minimo ou maximo
+
+    orientantion - Detecta se o dispositivo esta em modo retrato ou paisagem 
+
+            landscape - verifica se esta no modo retrato
+            portrait - verifica se esta no modo paisagem 
+
+    pointer - verifica se o usuario esta ultilizando celular,computador ou leitores de pagina
+
+        fine - se o usuario estiver ultilizando mouse ou trackback 
+        coarse - se o usuario estiver ultilizando dispositivos touchscreen 
+        none - neste caso o usuario provavelmente esta ultilzando teclado ou comando de voz 
+        
+
+Podemos carregar as media queries de varias formas diferentes como (inline - externo - ou na mesma folha )
+
+
+breakpoints - São os pontos de quebra do layout onde usamos as media quiries para que nossa pagina possa se adaptar para não atrapalhar a experiencia do usuario
+
+
+Imagems Responsivas - Temos que adptar nossa imagens tambem para evitar que dependendo da tela do usuario seja criado algum scroll lateral 
+
+    max-width - Usamos esta propiedade que vai esticar a imagem no maximo do tamanho dela assim nao criando scroll e nao usamos width porque ela poderia esticar a imagem e assim perdemos qualidade
+
+    
+    para colocar imagens diferentes com em diferentes tamanhos de tela usamos a tag picture - source e o atributo srcset 
+
+        <picture>
+
+                <source srset=link-image media="tamanho"> - serao usado no tamanho do media queries
+                <source srset=link-image media="tamanho"> - serao usado no tamanho do media queries
+
+                <img href="" alt> - esta sera aplicada por padrao  
+
+
+Tipografias Responsivas - Para deixar nossas Tipografias Responsivas ulizamos unidades Relativas como o "Rem" e outros tecnicas 
+
+    vw - Com esta propiedade as fontes se adapta pelo tamanho da viewPort porem não é muito usada pois inviabiliza a possibilidade do usuario com deficiencias ultizar o zoom do chrome 
+
+    calc(1.5rem + 4vw) - esta função faz um calculo com rem e vw e não atrapalha a acessibilidade
+
+    rem + media queries - mais usado na pratica pois da mais liberdade ao usuario

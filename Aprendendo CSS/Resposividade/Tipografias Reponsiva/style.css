@@ -1,0 +1,14 @@
+
+
+h1 {
+    /* font-size: 6vw; */
+    font-size: calc(1.5rem + 5vw);
+}
+
+/* @media screen and (min-width:1000px) and (max-width:1820px) {
+    
+    h1 {
+
+        font-size: 4rem;
+    }
+} */

@@ -1,0 +1,22 @@
+
+
+/* img {
+  width: 100%;
+  position: center center
+} */
+body {
+   background-image: url(imgPark3.jpg);
+}
+
+@media screen and (min-width:500px) and (max-width:720px) {
+   body {
+      background-image: url(imgPark2.jpg);
+   }
+}
+
+@media screen and (max-width:500px) {
+   body {
+      background-image: url(imgPark.png);
+      background-repeat: no-repeat;
+   }
+}
