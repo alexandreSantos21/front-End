@@ -1,7 +1,6 @@
 
 object-fit - é uma tag que usamos na imagem para definir como a imagem vai se comportar em nossa caixa
 
-
 object-fit:fill - este é o comportamento padrao na imagem é redmenciona a imagem para caber em nossa imagem assim podendo perder qualidade na imagem
 
 object-fil:container - este redimenciona o tamanho da imagem diminuindo a imagem para caber na imagem assim não perdendo qualidade porem as vesez não preenchendo o tamanho da caixa

@@ -1,0 +1,661 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Titan+One&display=swap');
+
+
+/*  font-family: "Open Sans", sans-serif; - Padrão
+    font-family: "Luckiest Guy", cursive; - decorada
+    font-family: "Titan One", sans-serif; - logo
+     
+*/
+*{
+    font-family: "Open Sans", sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+
+    height: 70vh;
+    width: 100%;
+    background-image: url(img/section1-roxo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(33, 0, 33);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+header h1 {
+    font-family: "Luckiest Guy", cursive;
+    color: #fff;
+    font-size: 2.5rem;
+    width: 20%;
+    text-align: center;
+    
+}
+
+header p {
+    color: #fff;
+    width: 55%;
+    font-size: 1rem;
+    text-align: center;
+}
+
+header a{
+    background-color: red;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+}
+.white-button {
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+}
+header .white-button:hover {
+    padding: 15px;
+    transition: .5s;
+    outline: 1px solid #23272a;
+    background-color: beige;
+}
+.black-button {
+    background-color: #23272a;
+}
+.black-button:hover {
+    padding: 15px;
+    transition: .5s;
+    outline: 1px solid gray;
+    color: beige;
+}
+
+
+.first-section {
+    width: 100%;
+    height: 80vh;
+    
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+}
+
+.texto-section-1 h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    width: 50%;
+    text-align: center;
+}
+.second-section {
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.text-section-2{
+    height: 40vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-section-2 h2 {
+    width: 50%;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+    
+    
+}
+.text-section-2 p {
+    
+    width: 80%;
+    text-align: justify;
+}
+
+.tercond-section {
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows: repeat(1,1fr);
+    
+    
+}
+.text-section-3 {
+    grid-column: 2 3;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    
+}
+.text-section-3 h2 {
+    font-size: 2rem;
+    height: 20vh;
+    width: 80%;
+    text-align: justify;
+    font-weight: 900;
+}
+.text-section-3 p {
+    text-align: justify;
+}
+
+.four-section {
+    background-color: #f6f6f6;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.four-section h2 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 2rem;
+    padding: 20px;
+}
+.four-section p {
+    text-align: center;
+    width: 70%;
+
+}
+
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    display: flex;
+    
+    align-items: center;
+}
+
+footer span {
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: "Titan One", sans-serif;
+    color: #fff;
+    margin: 5px;
+}
+
+
+@media screen and (min-width:900px) and (max-width:1500px){
+    header {
+        background-size: 100% 100%;
+        height: 50vh;
+    }
+    header p {
+        margin:20px 0 20px 0;
+    }
+
+    header .button {
+        margin-bottom: 20px;
+    }
+
+    .first-section {
+        height: 75vh;
+        margin: 0;
+    }
+    .first-section .texto-section-1 {
+        height: 50vh;
+        width: 35%;
+        
+    }
+
+    .first-section h2{
+        font-size: 1.5rem;
+        width: 70%;
+    }
+    .first-section p {
+        width: 70%;
+    }
+    .first-section img {
+        width: 450px;
+        
+    }
+
+    .second-section {
+        
+        height: 80vh;
+    }
+    
+    .second-section .text-section-2 {
+    
+       height: 30vh;
+       width: 40%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .second-section h2{
+        width: 60%;
+       
+      
+        font-size: 1.8rem;
+    }
+
+
+    .second-section p {
+        text-align: center;
+        width: 70%;
+        
+    }
+    .second-section div {
+        
+        width: 400px;
+        height: 40vh;
+    }
+
+
+
+    .second-section img {
+        width: 100%;
+        height: 100%;
+    }
+        
+    .tercond-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 70vh;
+        align-items: center;
+    }
+
+
+    .tercond-section .text-section-3 {
+        height: 50vh;
+        
+    }
+
+    .tercond-section .image-section3 {
+        width: 400px;
+        
+    }
+    .tercond-section .image-section3 img {
+        width: 100%;
+    }
+
+    .tercond-section .text-section-3 {
+        
+        width: 40%;
+    }
+    
+
+    .tercond-section h2{
+        
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .tercond-section p {
+        width: 100%;
+        text-align: center;
+    }
+    .four-section {
+        height: 80vh;
+    }
+
+    .four-section img{
+        width: 500px;
+        
+    }
+    footer {
+        height: 10vh;
+        
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:899px){
+
+    header {
+        height: 30vh;
+        width: 100%;        
+    }
+    header h1 {
+        font-size: 3rem;
+        
+        width: 50%;
+    }
+    header p {
+        font-size:15px;
+    }
+    .first-section {
+        width: 100%;
+        height:40vh;
+        
+    }
+    .first-section img {
+        width: 500px;
+    }
+   
+    .first-section .texto-section-1 h2{
+        
+        font-size: 1.5rem;
+
+    }
+    .texto-section-1 {
+        height: 30vh;
+    }
+    .first-section .texto-section-1 p {
+        font-size: 1.3rem;
+        width: 100%;
+        
+    }
+    .second-section {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .second-section img {
+        width: 500px;
+        
+    }
+    .second-section .text-section-2 p{
+        width: 80%;
+
+    }
+    .second-section .text-section-2 {
+        height: 25vh;
+        
+    }
+    .tercond-section {
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .tercond-section img {
+        width: 500px;
+    }
+    .tercond-section .text-section-3 {
+        
+        width: 80%;
+     
+        height: 20vh;
+        margin: auto;
+    }
+    .tercond-section .text-section-3 h2{
+        
+        width: 100%;
+        
+        
+    }
+    .tercond-section .text-section-3 p {
+        text-align: center;
+        width: 100%;
+    }
+    .four-section {
+        width: 100%;
+        
+        height: 35vh;
+    }
+    .four-section img {
+        width: 500px;
+        
+        
+    }
+    footer {
+        width: 100%;
+        
+        height: 5vh;
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width:390px) and (max-width:499px) {
+    
+    header {
+        height: 50vh;
+        width: 100%;
+
+    }
+    header h1 {
+        font-size: 2rem;
+        width: 70%;
+        
+        
+    }
+    header p {
+        width: 100%;
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    .button {
+        display: flex;
+        flex-direction: column;
+    }
+    .first-section {
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+        
+    }
+    .first-section img {
+        width: 350px;
+    }
+    .first-section h2 {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+    .first-section p {
+        text-align: center;
+        width: 90%;
+        font-weight: 600;
+        font-size: 1rem;
+        
+       
+        
+    }
+    .second-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        
+        
+
+    }
+    .second-section h2 {
+        font-size: 1.5;
+    }
+    .second-section p {
+        font-size: 1rem;
+    }
+    .second-section img {
+        width: 400px ;
+    }
+    .tercond-section {
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .tercond-section img {
+        width: 350px;
+        
+        
+        
+    }
+    .tercond-section h2 {
+        width: 80%;   
+        align-self: center;
+        height: 50%;
+        font-size: 1.5rem;
+        text-align: center;
+        
+    }
+    .tercond-section p {
+        
+        width: 90%;
+        font-size: 1rem;
+        align-self: center;
+        margin-top: 20px;
+        text-align: center;
+
+    }
+    .four-section {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .four-section h2 {
+        font-size: 1.5rem;
+    }
+    .four-section p {
+        font-size: 1rem;
+        
+        width: 90%;
+    }
+    .four-section img {
+        width: 300px;
+        
+    }
+    footer {
+        width: 100%;
+        height: 10vh;
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+
+    }   
+}
+
+
+@media screen and (max-width:389px){
+    
+    header {
+        width: 100%;
+        
+    }
+    header h1 {
+    
+        width: 100%;
+        font-size: 2rem;
+    }
+    header p {
+
+        width: 90%;
+        font-size: 1rem;
+    }
+    header .button {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    } 
+
+    .first-section {
+        
+        flex-direction: column;
+    }
+    .first-section img {
+        width: 350px;
+    }
+    .first-section h2 {
+        
+        width: 90%;
+    }
+    .first-section p {
+        text-align: center;
+        
+        width: 85%;
+    }
+    .second-section {
+
+         flex-direction: column;
+         
+    }
+    .second-section img {
+        width: 350px;
+        
+    }
+    .tercond-section {
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .tercond-section img {
+        width: 350px;
+    
+    }
+    .tercond-section .text-section-3 {
+        margin-left: 10px;
+    }
+    .tercond-section h2 {
+        
+        height: 50%;
+        margin: 10px 10px 0px 10px;
+        width: 90%;
+        text-align: center;
+    }
+    .tercond-section p {
+        
+        font-size: 1rem;
+        width: 90%;
+        text-align: center;
+    }
+    .four-section {
+    
+        height: 75vh;
+    }
+    .four-section img {
+        width: 250px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:334px) {
+
+    .four-section p {
+        
+        width: 90%;
+    }
+    .first-section img {
+        width: 100%;
+    }
+    .second-section img {
+        width: 100%;
+    }
+    .tercond-section img {
+        width: 100%;
+    }
+}
