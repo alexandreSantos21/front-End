@@ -19,7 +19,7 @@ flex-shrink - esta propiedade controla o quanto nossos items deevem encolher cas
 flex-basis - esta propiedade aplica aos items o tamanho que os items devem possuir antes de ser distribuido por tags como flex-grow ou seja define o tamanho inicial dos nossos items
 
     auto - verifica se há um tamanho definido e usar como base ce nao estiver aplicará inline
-    min-content - pega o maior conteudo do elemento e usu como base para aplicar o tamanho mini
+    min-content - pega o maior conteudo do elemento e usa como base para aplicar o tamanho mini
     max-content - vai aplicar o maximo ou seja o tamanho do conteudo
 
 

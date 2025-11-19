@@ -1,0 +1,79 @@
+
+:root {
+    
+    --bg-color-theme:linear-gradient(90deg,#d53369 0%,#daae51 100%);
+}
+body {
+    background-color: var(--bg-body);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+
+}
+
+nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 100%;
+    background-color:#262626;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    width: 50%;
+    height: 10vh;
+
+}
+li {
+    font-size: 1.3rem;
+    color: rgb(248, 235, 210);
+    list-style: none;
+    
+}
+li a {
+    
+    
+    background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+
+}
+li a:hover {
+    filter: brightness(.8);
+
+   
+}
+
+h1 {
+    background:var(--bg-color);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3.5rem;
+    font-weight: 900;
+    
+
+
+}
+.select {
+    color: aqua;
+}
+
+.dark-theme  {
+    --bg-body:#000;
+    --bg-color:linear-gradient(90deg,#d53369 0%,#daae51 100%)
+    
+}
+.light-theme {
+    --bg-body:#fff;
+    --bg-color: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}

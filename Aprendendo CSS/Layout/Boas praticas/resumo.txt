@@ -1,0 +1,54 @@
+ 
+Hierarquia do efeito cascata
+
+    1 - inline
+    2 - Css Interno
+    3 - Css Exerteno
+
+
+Especificidade - Quanto mais especifico nos deixarmos mais peso irá ter 
+
+calculo de Especificidade
+
+    1 - Inline - 1000 Pontos
+    2 - Id - 100 Pontos
+    3 - Classes,Pseudo-classe e atributo - 10 Pontos
+    4 - Tag HTML : 1 ponto
+
+
+!Important - Podemos usar esse elemento para dar uma importancia para o elemento com esta tag  nao entrará no calculo de especificação e vai sobrescrever todos os graus 
+
+
+Herança - Quando atribuimos uma estilização para a tag pai tambem é definido nas tag filhas com exeção de width - heigth - border 
+
+
+variaveis - Podemos definir variaveis no css para armazenas estilos que serão reultilizados 
+
+    definição:
+
+        --nome:estilização;
+
+    uso:
+        tag{
+           estilo: var (nome); 
+        }
+
+
+BEM - é uma metodologia usada para definir padroes de como usar o nome das classes e variaveis 
+
+ B - Bloco(block)
+    
+    - sera o primeiro nome e ultilizamos o nome da tag pai 
+
+ E - Elemento 
+    
+    São os elementos filho e separamos por underline 
+
+        [bloco]__[elemento] = (btn__item)
+
+M - nesta parte vamos atribuir o estado dos elementos 
+
+    [Bloco]__[Elemento]__[Modificador] = (btn__item__color)
+
+
+OOcss - É uma metodologia baseado em orientação de objeto basicamente seria separar cada tag por classes 

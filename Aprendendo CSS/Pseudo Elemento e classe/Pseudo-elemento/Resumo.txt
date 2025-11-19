@@ -1,0 +1,37 @@
+
+
+
+Com os Pseudo-elemento podemos estilizar partes do nosso codigo sem precisar declara-lo no html
+
+    ::First-letter - Este pseudo-Elemento altera a primeira letra do nosso conteudo
+
+        podemos alterar - color - background - margin - padding - border - font - propiedades
+
+
+    ::First-line - Com este Pseudo-elemento podemos alterar a primeira linha do paragrafo
+
+        
+
+    ::Backdrop - Com este Pseudo-elemento podemos trocar a cor de fundo do nosso video quando estamos no celular e fica fundo preto podemos mudar a cor de fundo ultilizando background
+
+    
+    ::marker - Com este pseudo elemento Podemos estilizar a flecha do Summary e numero ou ponto das nossas lista 
+
+        content - Quando queremos trocar usando esta tag e inserimos o que queremos trocar podendo ser texto,numero ou simbolos 
+
+                content("&")
+
+        E este Pseudo-Elemento aceita color - content - white-space - font - Animation - transitio 
+
+
+    ::Placeholder - Este pseudo-elemento permite nos estilizar o placeholder do nosso input
+
+
+    ::selection - Este pseudo-Elemento permite nos estilizar o contedo quando ele é selecionado e aceita as propiedades 
+
+        color - background - text 
+
+    ::file-selector-button - Este pseudo-elmento permite nos estilizar o nosso botao quando estamos ultilizando o input do tipo file
+
+
+    ::After e ::Before - Estes Pseudo-elementos Permite adiciona uma div nos elementos para estilizarmos e o after cria ao final do conteudo selecionado e before Cria no inicio do elemento cita

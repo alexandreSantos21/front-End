@@ -1,0 +1,61 @@
+
+
+
+Trasition -é uma shorthand para usamos e assim deixar as nossas transições mais suaves 
+
+
+    transition - Delay
+    Trasition - duration
+    Transition - propiedade
+    Transition - Timing-Function - São valores com tempos especificos 
+
+
+
+    Funções do Timming-Function 
+
+    linear  - Mesma velocidade do inicio ao fim
+    ease (Padrão) - Inicia lento depois aumenta e finaliza lento
+    ease - in - Lenta no inicio
+    ease - out - Lento no final 
+    ease - in - out -Lento no inicio e no final
+    cubic - bezier  - Esta tag permite nos personalizar o tempo da função
+
+
+@keyframes name - Com esta função selecionamos a animação que desejamos fazer entao dentro entao depois na tag que desejamos adicionar apenas colocar o nome e duração
+
+
+    @keyFrame animacao {
+        0% {
+        }
+        100% {
+        }   
+    }
+
+
+animation-delay: - Esta tag permite adicionar um tempo para a função Iniciar 
+
+animation-iteration-count - Com esta tag podemos adicinar quantas veses a animação vai se repetir podendo ser em quantidades ou infinite (infinito)
+
+
+animation-direction: - Com esta tag podemos definimos a direção da animação com alguns valores
+    reverse - Começa do final
+    alternate - alterna 
+    normal - É o valor padrão começa do inicio
+
+
+    animation-timing-function - Com esta tag podemos alterar a velocidade da animação ultilizando os valores ease - ease-in et...
+
+animation-fill-mode - Com Esta tag podemos definir qual será o estado do layout apos a animação como por exemplo se quisermos mantar a ultima cor do elemento e esta tag recebe alguns valores 
+
+    none - Por padrao e sempre volta a estilização inicial 
+    forwards - Mantem o ultimo estado do elemento 
+
+    both - aplica ambro começa em um cor e termina com outra
+
+    Atenção esta tag tambem depende da duração e vesez é influenciada
+
+animation-play-state: paused - com esta tag podemos pausar as nossa animações
+
+
+
+shorthand Animation - Duration - timming-function - delay - iteration-count - direction

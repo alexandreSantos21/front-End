@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button {
+    border: none;
+    padding: 15px 15px;
+    color: #fff;
+    background:linear-gradient(90deg,#d53369,#daae51);
+    box-shadow: 10px 10px 10px lightcyan;
+    width: 200px;
+    border-radius: 8px;
+    height: 70px;
+    animation: botao 2.2s linear infinite; 
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(1.2);
+    
+}
+
+@keyframes botao {
+    0% {
+        transform: rotate(0);
+
+    }
+    
+    15% {
+        transform: rotate(-10deg);
+    }
+    20% {
+        transform: rotate(10deg);
+    }
+    25% {
+        transform: rotate(-10deg);
+    }
+    30% {
+        transform: rotate(10deg);
+    }
+    35% {
+        transform: rotate(10deg);
+    }
+    40%,100% {
+        transform: rotate(0deg);
+    }
+
+}

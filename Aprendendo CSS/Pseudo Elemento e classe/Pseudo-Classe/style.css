@@ -1,0 +1,265 @@
+
+
+.hover .button-hover {
+    background-color: rgb(146, 81, 3);
+    color: aliceblue;
+    padding: 20px;
+    border: 1px solid burlywood;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.hover .button-hover:hover {
+    background-color: lightgreen;
+    color: gray;
+    cursor: pointer;
+    border: 1px solid green;
+}
+
+.active button {
+    background-color: brown;
+    color: whitesmoke;
+    padding: 25px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.active button:active {
+    
+    background-color: purple;
+
+}
+
+.active h2:active {
+    color: brown;
+}
+
+.focus {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 244, 244);
+    width: 100%;
+    height: 70vh;
+    align-items: center;
+}
+.focus h2 {
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.focus p {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+
+}
+.focus form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    height: 80%;
+}
+.focus label {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    
+    
+}
+.focus form input {
+    background-color: lightcyan;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    outline: none;
+}
+.focus form select{
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+}
+.focus form button {
+    width: 20%;
+    align-self: center;
+    margin-top: 20px;
+    height: 7vh;
+}
+
+.foucus input:focus {
+    outline: 2px dashed blue;
+}
+p:target::before {
+    content: "▶";
+    color: brown;
+    font-size: 20px;
+    
+}
+p:target {
+    background-color: lightsalmon;
+    
+}
+
+.disable-enable button:enabled {
+    background-color: brown;
+    border: none;
+    width: 10%;
+    height: 8vh;
+    color: #fff;
+    font-size: 20px;
+}
+
+.disable-enable button:disabled {
+    width: 10%;
+    height: 8vh;
+    background-color: lightcyan;
+    color: black;
+    text-decoration: line-through;
+    font-size: 20px;
+}
+.link-visited {
+    margin-top: 50px;
+}
+
+.link-visited a:link{
+
+    margin-top: 20px;
+    color: rgb(177, 1, 1);
+    padding: 20px;
+    background-color: lightcyan;
+    font-size: 20px;
+}
+
+.link-visited a:visited {
+    color: red;
+    text-decoration: line-through;
+}
+
+.checked-indeterminate {
+    height: 50vh;
+    margin: 30px 0 0 0;
+}
+
+.checked-indeterminate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checked-indeterminate form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+    align-items: center;
+  
+
+}
+ form div {
+    display: flex;
+    align-items: center;
+
+    padding: 5px;
+    
+}
+form div input {
+    width: 15px;
+    height: 15px;
+    
+}
+
+.checked-indeterminate form input:checked {
+    color: rgb(42, 170, 10);
+
+}
+
+.valid-invalid {
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valid-invalid form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-starts;
+    justify-content: center;
+    height: 40vh;
+    width: 250px;
+    background-color: lightgray;
+    padding: 100px;
+}
+
+.valid-invalid form input {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.valid-invalid form label {
+    font-size: 20px;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.valid-invalid form input:valid {
+    border: 1px solid green;
+    color: red;
+}
+.valid-invalid form input:invalid {
+    border: 1px solid red;
+
+    color: red;
+}
+.error {
+    color: red;
+    margin: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    display: none;
+}
+
+.valid-invalid form input:invalid + .error {
+    display: block;
+}
+
+.nth-child-type li:nth-of-type(even) {
+    color: red;
+    font-family: sans-serif;
+    margin: 2px;
+}
+.nth-child-type li:nth-child(odd) {
+    color: blue;
+    margin: 2px;
+    font-family: sans-serif;
+}
+
+.pseudo-is {
+    height: 400px;
+    background-color: lightcyan;
+
+
+}
+
+section :is(h1,p) {
+    color: blue;
+
+}
+
+ :is(ul,nav,span) p {
+    background-color: red;
+    color: white;
+}
+
+.second-exemplo span:not(.Irrelevante) {
+    background-color: lightgreen;
+    color: red;
+}
+
+.pseudo-has ul:has(a) {
+    background-color: lightpink;   
+}

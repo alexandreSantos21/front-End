@@ -1,0 +1,92 @@
+
+
+code {
+    background-color: rgb(208, 206, 206);
+}
+
+.aula1 ::first-letter {
+    font-size: 20px;
+    color: blue;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+ .aula1 p::first-line {
+    color: red;
+    
+    font-size: 20px;
+}
+
+summary::marker {
+    content: "+";
+    color: brown;
+    cursor: pointer;
+}
+
+ul li::marker {
+    color: green;
+    content: "-- >";
+}
+
+::placeholder {
+    color: gray;
+    text-transform: uppercase;
+}
+
+.exemplo {
+    
+    font-size: 20px;
+    height: 20vh;
+    font-family: sans-serif;
+    display: flex;
+    
+    align-items: center;
+}
+
+.exemplo::selection {
+    background-color: lightcyan;
+    color: rgb(86, 50, 3);
+}
+
+.file {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+input::file-selector-button {
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(0, 36, 37);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input::file-selector-button:hover {
+    color: rgb(5, 116, 32);
+}
+
+.afeter-before {
+    width: 500px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background:url(img/laura-cleffmann-gRT7o73xua0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.afeter-before::before {
+    content: "";
+    background: linear-gradient(transparent,#8b4141);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}

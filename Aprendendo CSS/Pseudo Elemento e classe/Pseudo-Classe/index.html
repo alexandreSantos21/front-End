@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Apredendo Pseudo-Classe</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+
+        <div class="hover">
+            
+            <h1>Pseudo-Elemento <code>Button</code></h1>
+            <button class="button-hover">Entrar em contato</button>
+        </div>
+
+        <div class="active">
+
+            <h2>Pseudo-classe <code>:active</code></h2>
+            <button>Clique</button>
+
+        </div>
+
+        <div class="focus">
+
+                <h2>Pseudo-classe <code>focus; focus,focus-within e :focus-visible</code></h2>
+
+
+                <form >
+
+                        <p>Selecione o sabor de sorvete que voce deseja</p>
+
+                        <label for="name">
+                                Nome Completo:
+                                <input type="text" name="nome" id="name">
+                        </label>
+
+                        <label >
+                                Sabor de sorvete:
+
+                                <select name="sabor" >
+                                        <option value="chocolate">Chocolate</option>
+                                        <option value="morango">Morango</option>
+                                        <option value="doce-maria">Doce de Leite</option>
+                                        <option value="abacaxi">Abacaxi</option>
+
+                                </select>
+                        </label>
+                        <button>Finalizar pedido</button>
+                </form>
+
+
+
+
+        </div>
+
+        <div class="target">
+
+                <h2>Pseudo-Classe <code>:Target</code></h2>
+
+                <ol>
+                    <li>
+                        <a href="#link">Clique para ir para o primeiro paragrafo</a>
+                    </li>
+                    <li>
+                        <a href="#link2">Clique para ir para o segundo paragrafo</a>
+                    </li>
+                </ol>
+
+                <p id="link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat perspiciatis ipsum placeat a consequatur porro officiis? Explicabo, molestiae cupiditate. Sit similique cupiditate asperiores in deserunt ab fugit minus quos laborum.
+                </p>
+
+                <p id="link2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus perspiciatis maxime unde ex laboriosam, excepturi adipisci vel odio cum ratione! Nesciunt harum, facere dignissimos aliquam odio fugiat quos esse voluptate?
+                </p>
+        </div>
+
+        <div class="disable-enable">
+
+                <h2>Pseudo Classe <code>Disable - enable</code></h2>
+
+                <button>Ativado</button>
+                <button disabled>Desativado</button>
+        </div>
+
+        <div class="link-visited">
+                <a href="#">Me siga no instagram</a>
+        </div>
+
+        <div class="checked-indeterminate">
+
+                <h2>Pseudo Classe <code>Checked e Indeterminate</code></h2>
+                <form >
+                        <label for="tarefa1">
+                            Tarefa 1
+                                <input type="checkbox" id="tarefa1">
+                        </label>
+                        <label for="tarefa2">
+                            Tarefa 2
+                                <input type="checkbox" name="tarefa" id="tarefa2">
+                        </label>
+                        <label id="tarefa3">
+                            Tarefa 3
+                        </label>
+                        <input type="checkbox" name="" id="tarefa3">
+
+                </form>
+        </div>
+
+        <div class="valid-invalid">
+
+                <form >
+                        <label for="name">Nome completo:</label>
+                        <input type="text" name="name" id="name" placeholder="Digite seu nome:">
+                        <span class="error">Campo prenchido invalido</span>
+                        <label for="data">Data De Nascimento:</label>
+                        <input type="date" name="data" id="data" min="1962" max="2025-01-01">
+                        <span class="error">Campo prenchido invalido</span>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu Email">
+                        <span class="error">Campo prenchido invalido</span>
+                        <div>
+                            <input type="checkbox" name="" id="" required>
+                            <span>Li os termos de uso</span>
+                        </div>
+
+                        <button type="submit">Enviar</button>
+                </form>
+        </div>
+
+        <div class="nth-child-type">
+            
+                <ul class="list-nth">
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                        <li>Item 5</li>
+                        <li>Item 6</li>
+                        <li>Item 7</li>
+                        <li>Item 8</li>
+                </ul>
+
+        </div>
+
+        <div class="pseudo-is">
+
+                <section class="pai">
+                        <h1>Este é o titulo</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aspernatur distinctio dolorem dignissimos esse commodi necessitatibus fugit suscipit ratione? Quam nam iusto nobis sint consequatur unde odit eos excepturi aliquam?</p>
+                        <p>Error, nostrum numquam! Porro, animi quibusdam rem officia rerum, unde illo ratione perspiciatis distinctio accusamus cupiditate harum explicabo soluta, est odit adipisci alias voluptatem eaque repellendus nemo laudantium delectus possimus!</p>
+                        <p>Deserunt sunt expedita illo dolor. Officia, perferendis accusamus fugiat aliquam nulla consequatur porro fuga commodi distinctio ducimus, delectus facere neque ratione incidunt, provident reiciendis in tempore quos mollitia. Est, laboriosam!</p>
+                </section>
+
+                <div class="second-exemplo">
+
+                        <nav>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur tempora error fuga nisi debitis cumque porro impedit sit soluta. Voluptatem beatae et numquam fuga illo, reprehenderit voluptate nam placeat.</p>
+                                <p>Eveniet, necessitatibus aliquam officiis consequuntur quaerat facere laborum laudantium nostrum adipisci placeat quam sint praesentium excepturi porro amet eligendi quas consectetur earum reiciendis dolore? Veniam iste quos nulla id et!</p>
+                                <p>Provident eius esse fuga, corrupti qui impedit rem voluptate omnis aspernatur id delectus similique ut inventore sit possimus explicabo reprehenderit atque sint blanditiis commodi! Architecto ab reiciendis aspernatur maxime vero?</p>
+                        </nav>
+                        <ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae debitis sit magni deleniti architecto quos ipsa, cumque laudantium sapiente nam voluptatibus tempore consequatur autem totam, doloribus minima veritatis, repudiandae earum.</p>
+                                <p>Quos debitis deserunt dolores fuga eligendi saepe dignissimos, at tempora commodi officiis, et porro iure sit soluta pariatur a. Eaque inventore quia sint consectetur obcaecati error fugit iusto placeat officiis!</p>
+                                <p>Laborum magnam non suscipit dolores necessitatibus fugiat ea ipsa quam facere dolorum molestiae, repellendus, rem repellat amet sunt libero error eum, quae vel quos! Repudiandae, veniam! Excepturi aliquam nam vero?</p>
+                        </ul>
+                        <span class="irrelevante">
+                                Texto Irrelevante
+                        </span>
+                </div>
+        </div>
+
+        <div class="pseudo-has">
+                
+                <ul>
+                        <li>
+                                <a href="#">link 1</a>
+                        </li>
+                        <li>
+                                <a href="#">link2</a>
+                        </li>
+                        <li> 
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nam, praesentium dolorem odit amet totam ipsum esse veritatis vero expedita? Placeat voluptatem repudiandae veritatis sit, dolores tenetur quaerat accusamus illo.
+                        </li>
+                </ul>
+        </div>
+    </body>
+</html>

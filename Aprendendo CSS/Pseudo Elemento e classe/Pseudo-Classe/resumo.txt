@@ -1,0 +1,79 @@
+
+As pseudo-Classe permite nos estilizar os elementos apartir de estados que o elemento esteja
+
+hover - Quando o usuario passar o mouse receberá as estilizações
+
+Focus - Quando ultilizamos esta Pseudo-classe nos podemos estilizar quando o usuario foca ou seja seleciona o elemento
+
+    focus-Whitin - permite nos aplicar a estilização para o elemento pai e elemento filho 
+
+    focus-visible - Quando o usurio clicar nao tera a estilizição apenas quando o usuario selecionar com Tab
+
+
+Target - Esta Pseudo-classe permite nos estilizar quando nos clicamos em um link e nos leva para um parte na pagina 
+
+
+Enable e Disable - Com esta pseudo-classe podemos estilizar os nossos elemento quando eles estao ativos e desativados
+
+link e visited - Com esta pseudo classe podemos estilizar o link do nosso site e tambem quando o link foi clicado 
+
+place-holder-shown - Com esta pseudo-classe podemos estilizar quando o elemento possui um place-holder 
+
+
+:Checked - Com esta pseudo-Classe podemos estilizar as nossa caixa do (select option) - (input:checkbox) e (input:radio)
+
+indetermite - Com esta pseudo-Classe podemos estilizar os elemento que nao foram mexidos ainda 
+
+valid - Permite nos estilizar um input quando ele esta valido 
+invalid - Permite nos estilizar um input quando ele está invalido
+
+in-range - Permite nos estilizar quando o valor digitado pelo usuario quando esta dentro do intervado estabelecido
+
+out-of-range - Permite nos estilizar o elemento quando valor digitado pelo usuario esta fora do intervado  
+
+
+required -  Podemos estilizar os campos que possuem o atributo required
+optional - podemos estilizar os campos que possuem o atributo optional
+
+autofill - Podemos estilizar os input que foram auto preenchidos com as senhas do chrome
+
+:root - Com esta pseduo-classe nos estamos referenciando a estrutura html do nosso elemento usamos para fazer reset e salvar variaveis 
+
+nth-child - podemos item filhos a partir de index e usamos a pseudo-classe nth-child(2) 
+nth-of-type - Com este podemos estilizar a partir de index e tambem especificar o tipo do elemento que queremos selecionar
+
+            valores de index - Even(par) - odd(impar)
+
+
+first-of-type - Podemos estilizar primeiro elemento inserido 
+last-of-type - podemos estilizar o ultimo elemento inserido
+
+
+only-child - Vai estilizar os elemento que nao possui irmãos
+only-type - Esta pseudo-classe permite nos estilizar um elemento que é unico na nossa estrutura
+
+empty - É uma pseudo-classe se refere apenas a tags vazias
+
+Is - Este Pseudo-elemento permite selecionar varios elementos filhos dentro de uma tag pai e tambem vairas tags pai com uma tag filha em comum 
+
+    section :is(h1,p) {
+            color: blue;
+
+        }   
+
+        :is(ul,nav) p {
+    background-color: red;
+    color: white;
+    }
+
+    Devemos usar este seletor pois quando selecionamos da forma comum separado por virgula quando uma tag quebra todas quebram 
+
+Where - Este é a mesma coisa que o "Is" porem tem uma ordem de precedencia menor 
+
+not - Ele vai funcionar como uma pseudo-classe de negação selecionamos os elementos que nao queremos selecionar um tipo de propiedade
+
+has - com esta pseudo-classe podemos estilizar uma tag que tenha outro elemento e podemos ler como o "if" ou seja se estiver dentro aplique 
+
+    .pseudo-has ul:has(a) {
+    background-color: lightpink;   
+    }

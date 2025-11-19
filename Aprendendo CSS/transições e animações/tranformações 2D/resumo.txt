@@ -1,0 +1,26 @@
+
+
+
+tranformações 2D permite nos movermos o nosso elemento e para isso usamos a tag transform
+
+tranlateX - Esta tag permite nos movermos o nosso elemento seguindo os eixo x(horizontal) com valores positivos para direita e negativo para esquerda
+
+translateY - Esta tag permite movermos o nosso elemento seguindo o eixo Y(vertical) com valores negativos pra cima e positivo para baixo
+
+    tranform:translate(200px,100px) - normamente usamos a shorthand segue o eixo X e Y
+
+rotate - Permite rotacionar o elemento e usa como unidade de medida deg(graus) e tambem podemos ultilizar o eixos separado X e translateY
+
+Scale - Permite aumentar ou diminuir o elemento baseado no width e height usado sempre usando como base as medidas ultilizadas usamos nos botoes 
+
+    2 = Dobro das medidas ultilizadas
+    .5 = Metade a medida ultilizada
+
+
+skew - Para rotacionar o elemento porem na diagonal deixa com efeito deitado e tambem ultilizamos a unidade medida deg(graus)
+
+matrix - e a shorthand das tranformaçoes 2D
+
+        angritools.com/css - Este site gera as tranformaçoes 
+
+        

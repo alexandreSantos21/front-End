@@ -1,0 +1,56 @@
+
+
+body  {
+    background-color: rgb(246, 252, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    perspective: 400px;
+    perspective-origin: top;
+    transform-style: preserve-3d;
+    
+    
+
+}
+
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 2px solid purple;
+    position: absolute;
+    /* transform: rotateY(30deg); */
+}
+
+.box:nth-child(1) {
+    background: linear-gradient(pink,purple);
+    transform: rotateY(40deg);
+}
+.box:nth-child(2) {
+    background: linear-gradient(to left,rgb(239, 63, 63),rgb(79, 79, 242));
+    transform: rotateY(-40deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .box:hover {
+    transform: rotate(40deg);
+    transform-origin: center bottom;
+    transition: 1s;
+} */
+
+
+

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222222;
+    height: 100vh;
+    flex-direction: column;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+.box {
+    background:linear-gradient(90deg,#FC4668,#3F4EFB);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    animation: exemplo 5s infinite alternate;
+    filter: blur(100px);
+    position: absolute;
+
+}
+h1 {
+    font-size: 4rem;
+    font-family: sans-serif;
+    position: absolute;
+    top: 200px;    
+    color: #fff;
+}
+p {
+    font-size: 2rem;
+    color:#d3f6e4;
+    position: absolute;
+    top: 270px;
+}
+
+@keyframes exemplo {
+    
+    0% {
+        transform: rotateY(30deg) rotate(-25deg) translateZ(100px);
+    }
+
+    25% {
+        transform: rotateY(-50deg) rotateX(10deg) translateZ(500px);
+    }
+
+    50% {
+        transform: rotateX(-50deg) translateZ(-200px);
+    }
+
+    75% {
+        transform: rotateX(-50deg) translateZ(-100px)
+    }
+
+    100% {
+        
+    }
+}

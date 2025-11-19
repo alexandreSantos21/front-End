@@ -1,0 +1,21 @@
+
+
+Apredendo sobre tranformaçoes 3D as tags 3D podem ser adicionadas apenas nas tag pai para estilizar as filhas 
+
+
+Perspective - Este vai adicionar a visão 3D nos adiciona em px quanto menos px maior a percepção
+
+perpective origin - Para adicionar a direção que o usuario esta visualizando
+
+eixo z - quando adicionamos no rotate ele da a impresao de ter girado e quando usamos no translate ele da a impressao do elemento estar mais perto com valores positivos e mais longe com valores negativos
+
+
+tranform-origin : permite nos selecionar o ponto de origem que vai ser aplicado a tranformação no elemento
+
+
+tranform-style - Esta tag igual a relative é aplicada apenas na tag pai e ela recebe 2 valores flat e preserve-3D permite preservar as caracteristicas 3D assim ter uma visao mais realista 3D
+
+
+backface-visibility - com esta propiedade podemos alterar se quisermos mostrar a parte de tras do elemento ou nao e recee 2 valores vilisibility(mostrar) e hidden(escoder) 
+
+

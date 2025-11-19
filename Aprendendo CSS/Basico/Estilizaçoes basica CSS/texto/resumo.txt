@@ -22,7 +22,6 @@ word - spacing - Permite determinar o espaçamento de cada palavras no texto
 
 
 
-
 aprendendo sobre white-space permite controlar como nosso texto irá se comportar em relação aos espaços em branco
 
 
@@ -37,7 +36,6 @@ aprendendo sobre white-space permite controlar como nosso texto irá se comporta
     white-space-pre-wap - com esta propiedade os espaços em branco no html sao presenvados e tambem se quebra quando o conteudo bater no final da caixa
 
     white-space:break-spaces - ele mantem os espaços em branco porem tambem quebra quando ouver uma sequecia grande
-
 
     word-wap - define se a palavra deve quebrar ou não e recebe 2 valor normal que vai esperar a palavrar terminar para quebrar a linha e break-word onde vai quebrar quando tocar o final da caixa
 
