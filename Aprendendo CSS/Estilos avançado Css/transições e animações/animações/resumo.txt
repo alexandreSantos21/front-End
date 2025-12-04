@@ -57,5 +57,4 @@ animation-fill-mode - Com Esta tag podemos definir qual será o estado do layout
 animation-play-state: paused - com esta tag podemos pausar as nossa animações
 
 
-
 shorthand Animation - Duration - timming-function - delay - iteration-count - direction

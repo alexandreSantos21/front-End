@@ -1,0 +1,60 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightblue;
+    transition: background-color 1s ease; /* duração e suavidade */
+
+   
+}
+
+div {
+    /* background-color: rgba(255, 0, 0, 0.628); */
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    transform: translate(-200px);
+    transform: rotate(50deg);
+    transform: scale(.5);
+    transform: skew(100deg,-100deg);
+    
+}
+
+span {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 10px;
+  
+}
+.box2 {
+  background-color: green;
+  position: relative;
+  left: 150px;
+}
+.box3 {
+  background-color: rgba(255, 0, 0, 0.183);
+  transform: scale(.8);
+  position: sticky;
+}
+
+body {
+  animation: bgChange 5s infinite alternate;
+}
+
+@keyframes bgChange {
+  0% {
+    background-color: #008cff;
+  }
+  25% {
+    background-color: lightseagreen;
+  }
+  50% {
+    background-color: cadetblue;
+  }
+  100% {
+    background-color: #059d9d;
+  }
+}

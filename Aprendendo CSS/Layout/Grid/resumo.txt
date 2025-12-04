@@ -49,8 +49,6 @@ tamanho minimo e maximo das faixas -  é uma funçao que irá receber tamanho mi
 grid area - Esta tag serve como um short hand para alocar os nossos item e recebe os valores 
 
     grid-area: grid-rows-start  / grid-coluns-start / grid-rows-end / grid-coluns-end;
-
-
     porem tambem ultilizamos de outras maneiras com o - Grid-template-areas: com esta tag vamos dar nome e definir como será o layout da nossa pagina 
 
 

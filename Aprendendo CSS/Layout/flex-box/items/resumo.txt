@@ -6,7 +6,7 @@ order - este atributo permite nos ordenar nossos items sem precisar mudar na est
 
     order:-1; - Assim será o primeiro elemento
 
-flex-grow - esta propiedade controle o quantos nossos items devem crescer para preencher os espaços vazios e recebem valores numero positivos como proporção
+flex-grow - Esta propiedade controla o quantos nossos items devem crescer para preencher os espaços vazios e recebem valores numero positivos como proporção
 
     flex-grow:1; - assim todos os items se esticará para preencher o espaço vazio
 
