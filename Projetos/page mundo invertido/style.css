@@ -132,6 +132,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 main section {
@@ -143,16 +144,30 @@ main section {
 }
 
 
-main::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background: var(--page-background) no-repeat,
-        url(./assets/images/backgrounds/florest.png) no-repeat;
-    background-size: cover;
-    z-index: -1;
+
+main {
+  position: relative; /* cria contexto para o ::before */
 }
+
+main::before {
+  content: "";
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  
+  background-color: red;
+  
+  background: var(--page-background) no-repeat, url(./assets/images/backgrounds/florest.png) no-repeat center center;
+  background-size: cover;
+
+  z-index: -1; 
+}
+
+
+
+
+
+
 
 .section-texts {
     max-width: 600px;
