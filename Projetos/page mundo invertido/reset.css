@@ -1,13 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: 1s;
+    
 }
 
 
 :root {
+  --font-normal: "Archivo", sans-serif;
+  --font-black: "Archivo Black", sans-serif;
+  --font-light: "Archivo Narrow", sans-serif;
+  --font-texto:"Roboto", sans-serif;
+  --font-text2:"Raleway", sans-serif;
+
   --primary-color: #cf0f0f;
   --primary-color-contrast: #ffffff;
   --field-background-color: #000;
