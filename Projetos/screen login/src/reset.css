@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-text-normal);
+}
+
+
+:root {
+    --font-text-light: "Raleway", sans-serif;
+    --font-text-normal:"Roboto", sans-serif;
+    --font-title:"BBH Bartle", sans-serif;
+}

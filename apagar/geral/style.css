@@ -1,0 +1,80 @@
+
+body {
+    display: grid;
+    place-items: center;
+    height: 150vh;
+    animation: background 5s cubic-bezier(.15,1.03,.83,.67) infinite;
+    
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    /* transform: scale(.5); */
+    transform: translate(-100px) rotate(10deg) skew(10deg);
+    
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    background-color: blueviolet;
+    color: #fff;
+    transform: skew(20deg) rotate(20deg) translateX(10px);
+    animation: botao .5s infinite alternate;
+}
+button:hover {
+    transform: scale(2);
+}
+
+.box2 {
+    width: 300px;
+    background-color: lightskyblue;
+    height: 300px;
+    transition-property: background,border-radius;
+    transition-duration: 2s;
+    transition-delay: .2s;
+    transition-timing-function: cubic-bezier(-15,.89,.85,.26);
+    
+}
+
+.box2:hover {
+    border-radius: 50%;
+    background-color: orangered;
+
+
+}
+
+@keyframes botao {
+    
+    0% {
+        transform: rotate(20deg) scale(1.2);
+        
+    }
+    100% {
+        transform: rotate(-20deg) scale(.8);
+    }
+}
+
+
+@keyframes background {
+    from {
+        background-image: linear-gradient(green,blue,orangered);
+    }
+    to {
+        background-image: linear-gradient(to left,rgb(191, 247, 191),rgb(143, 161, 24),rgb(155, 18, 125));
+    }
+}

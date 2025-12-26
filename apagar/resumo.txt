@@ -1,0 +1,49 @@
+
+tipos de animaçoes 
+
+
+funcional - Otima z exepperinecia sao animaçoes que declaram o estado do elemento ou seja se esta ativo ou nao
+material - Modelo consistente e cria uma relação entras a tela e os elementos 
+
+
+
+tranlate X , Y , Z - move o elemento no sentido do eixo
+
+scale - Faz o elemento crescer ou diminuir
+
+rotate - rotaciona o elemento e recebe as unidade de medida deg(graus) turn(volta)
+
+skew - Move o elemento na diagonal deixando com efeito "deitado"
+
+
+
+Poderes do animation
+
+
+    transition-propery - Escolhe qual propiedade vai passar pela animação
+    transition-duration - Permite nos escolhermos o tempo de duração da animação
+    transition-delay - escolher um tempo para a animação começar
+    transition-timing-funcition - Permite nos escolher a velocidade que vai acontecer a animaçao com alguns valor pronto [ease - ease-out] ou nos mesmo adicinar o tempo usando o valor 
+
+            cubic-basier
+
+
+@keyFrame NOME - Serve para nos definir o intervado das nossa animaçoes podemos usar porcetam ou palavras definidas como [from - to]
+
+
+
+animation - Usamos para adicionar as caracteristicas do nosso keyFrame e ele é uma shortHand das tags
+
+    animation-name - Nome da animação
+    animation-duration - duração da animação
+    animation-timing-function -  controla a velocidade de como vai acontecer a animaçao - valores pronto [ease - ease-in] ou [cubic-basier]
+    animation-delay - tempo para começar a animação
+    animation-direction -  declara a direção da animação recebendo valor como [alternate - alternate-reverse]
+    animation-fill-mode - Controla o estado inicial e final recebendo valores como 
+        
+        backwards - fará com que a animação inicie no inicio da tela
+        forwards - Apos a execução o elemento ficara na posição final
+        both - Aplica ambos 
+
+
+    animation-play-state - permite controlar o estado do elemento e pausar com o valor [paused]
