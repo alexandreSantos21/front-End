@@ -1,0 +1,15 @@
+
+
+GitHub - Plataforma de Rede Sociais para Programadores
+
+git - É um software de controle de versão (V-C-S)
+
+O git permite nós salvarmos o nosso o nosso projeto e voltarmos em versões anteriores e ajuda no trabalho em equipe
+
+
+
+
+(V-C-S) centralizado/linear - É um tipo de software de controle de versão mais antigo e os arquivo são enviado para um repositorio central e o propio software é capaz de organizar as versões 
+
+
+(V-C-S) distribuido - são repositorios locais ou seja nos instalamos na nossa propia maquina e depois enviamos para um repositorio remoto 
