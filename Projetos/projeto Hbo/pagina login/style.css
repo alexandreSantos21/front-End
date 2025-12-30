@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-padrao);
+}
+
+:root {
+    --primary-color: #020228;
+    --secondary-color: #ff00e5;
+    --tertiary-color: #b535f6;
+    --btn-bg-color-gradient: linear-gradient(
+      45deg,
+      #9b34ef 0%,
+      #490cb0 20%,
+      transparent 50%
+    );
+    --btn-link-bg-color: #fff;
+    --btn-link-color: #000;
+    --card-bg-color: linear-gradient(0deg, transparent, #3b1e63);
+    --divider-bg-color: linear-gradient(
+      90deg,
+      #5516ba,
+      rgba(255, 0, 229, 0.5) 80%
+    );
+    --nav-bg-color: rgba(0, 0, 0, 0.3);
+    --text-color: #fff;
+    --link-color: #9e86ff;
+    --form-bg-color: rgba(211, 211, 211, 0.06);
+    --form-field-bg-color: rgba(0, 0, 0, 0.2);
+    --form-field-border: 1px solid rgba(255, 255, 255, 0.7);
+    --form-field-placeholder: rgba(255, 255, 255, 0.7);
+    --form-field-error: rgb(255, 76, 76);
+
+    scroll-behavior: smooth;
+
+    --font-padrao:"Raleway", sans-serif;
+    --font-estilo:"Quicksand", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+header {
+    height: auto;
+    padding: 10px 0;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    
+}
+
+
+header img{
+    width: 200px;
+    margin-left: 50px;
+
+}
+
+header nav {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    
+    width: 400px;
+    
+    width: 50%;
+    
+    
+}
+
+header nav ul {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    list-style: none;    
+    
+}
+header nav ul .button-header {
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+
+header nav ul li:nth-child(2) {
+    background-color: var(--tertiary-color);
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+header nav ul li:nth-child(1):hover {
+    text-decoration: 3px solid underline;
+    color: var(--tertiary-color);
+    transition: .5s;
+}
+
+header nav ul li:nth-child(2):hover {
+    background-color: transparent;
+    border: 2px solid var(--tertiary-color);
+    transition: 1s;
+}
+
+header nav ul li:nth-child(3):hover {
+    text-decoration: 3px solid underline;
+    color: var(--tertiary-color);
+    transition: .5s;
+}
+body {
+    background-color: #1d073b;
+    
+}
+
+
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    background-image: url('../images/background-movies-series.png'); 
+    background-size: cover;
+    
+
+    
+}
+
+main h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 20px 0 50px 0;
+    text-transform: uppercase;
+
+}
+
+
+
+main form {
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50vh;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* background-image: var(--card-bg-color); */
+    background-image: linear-gradient(#4804a8,#47008f,#50008d);
+    background-size: 500% 500%;
+    padding: 30px;
+    border-radius: 20px;
+    animation: background-animation 10s ease-in-out infinite;
+}
+
+main form label {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+
+main form input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #a243c8;
+    background-color: transparent;
+    border-radius: 10px;
+    
+}
+
+
+main form input::placeholder {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #fff;
+    padding: 10px;
+} 
+
+main form button:nth-last-of-type(2) {
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    
+    align-self: flex-end;
+}
+
+main form button:nth-last-of-type(2):hover{
+    color: var(--tertiary-color);
+}
+
+main form button:nth-last-of-type(1) {
+    
+    align-self: center;
+    justify-content: center;
+    padding: 10px 60px;
+    border-radius: 10px;
+    
+    background-image: var(--btn-bg-color-gradient);
+    background-size: 500% 500%;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    
+    font-weight: 100;
+    
+}
+
+main form button:nth-last-of-type(1):hover {
+    background-image: none;
+    background-color: transparent;
+    border: 1px solid purple;
+    transform: scale(1.1);
+    transition: 1s;
+    
+}
+
+
+
+@keyframes background-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 100% 20%;
+    }
+}
+
+
+
+
+
+
+
+
+
+footer {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer nav {
+    width: 80%;
+    
+}
+
+footer nav ul{
+    display: flex;
+    text-decoration: none;
+    font-size: 1.1rem;
+    list-style: none;
+    width: 100%;
+    
+    justify-content: space-around;
+}
+
+footer nav ul a {
+    text-decoration: none;
+    font-weight: 900;
+    color: var(--tertiary-color);
+    text-transform: uppercase;
+}
+
+footer nav ul a:hover {
+    color: #fff;
+    transition: 1s;
+}
+
+footer  p {
+    color: #fff;
+    text-align: center;
+    font-size: .8rem;
+}
+
+
+footer .social-media {
+    width: 20%;
+}
+footer .social-media ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    cursor: pointer;
+    
+
+}
+
+
+@keyframes animation-background {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 50% 10%;
+    }
+}
+
+
+@media (min-width:781px) and (max-width:1000px) {
+    body {
+        background-color: red;
+    }
+    
+    main form {
+        width: 90%;
+        height: 60vh;
+        
+    }
+
+   
+}
+
+ @media(max-width:780px) {
+        
+
+        header {
+
+            display: flex;
+            font-size: .8rem;
+            text-align: center;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            padding: 20px;
+
+        }
+        header nav {
+            margin-top: 10px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    
+        main {
+            display: flex;
+            justify-content: center;
+        }
+
+        main form{
+            width: 80%;
+        }
+
+
+        footer  {
+            display: flex;
+            flex-direction: column;
+            height: 50vh;
+            margin-bottom: 20px;
+            
+        }
+        footer nav ul{
+               
+            height: auto;
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        
+        }
+        
+        .social-media ul {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            
+            width: 100%;
+        }
+    }
+
