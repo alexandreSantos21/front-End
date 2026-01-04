@@ -1,0 +1,29 @@
+
+
+O que é um Framework
+    - Definição: Um framework é um conjunto de funções e estruturas de código já prontas.
+    - Objetivo: Permite reutilizar uma base pré-definida, acelerando o desenvolvimento e garantindo organização.
+    - Vantagem: Evita “reinventar a roda”, pois já traz soluções comuns implementadas.
+
+Exemplos de Frameworks CSS para estudo
+
+- Tailwind CSS
+    - Framework utilitário baseado em classes.
+    - Cada classe aplica uma estilização específica (ex.: text-center, bg-blue-500).
+    - Flexível e altamente personalizável.
+
+- Materialize CSS
+    - Baseado no Material Design do Google.
+    - Oferece componentes visuais prontos (botões, cards, menus).
+    - Facilita a criação de interfaces modernas e consistentes.
+
+- Bulma
+    - Framework responsivo baseado em Flexbox.
+    - Foco em simplicidade e rapidez.
+    - Classes intuitivas para layout e tipografia.
+
+- Bootstrap
+    - Um dos frameworks mais populares.
+    - Possui diversos elementos pré-definidos (botões, tabelas, formulários, grid).
+    - Inclui componentes interativos com JavaScript (modals, carrosséis, dropdowns).
+

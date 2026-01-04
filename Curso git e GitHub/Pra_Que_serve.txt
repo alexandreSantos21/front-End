@@ -13,3 +13,22 @@ O git permite nós salvarmos o nosso o nosso projeto e voltarmos em versões ant
 
 
 (V-C-S) distribuido - são repositorios locais ou seja nos instalamos na nossa propia maquina e depois enviamos para um repositorio remoto 
+
+
+
+    Conceitos importantes
+
+
+    Repositorio - é um local onde armazena todas as mudanças feitas nos arquivos do projeto 
+
+    commit - são os pontos importante que fazemos envio é uma fase do projeto que desejamos salvar
+
+                Os commit tem 3 fases
+
+                    modified - modificados ou seja quando mudamos alguma coisa no nosso projeto
+
+                    staging - Aréa de preparação 
+
+
+    Branch - São "Linhas do tempo" que criamos apartir dos commit 
+

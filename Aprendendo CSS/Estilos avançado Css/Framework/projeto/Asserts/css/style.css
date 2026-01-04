@@ -1,0 +1,75 @@
+
+:root {
+    --bs-link-color:#198754;
+    --bs-link-hover-color:#126c43;
+}
+
+
+    .btn-outline-success {
+    --bs-btn-color: #198754;
+    --bs-btn-border-color: #198754;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #198754;
+    --bs-btn-disabled-bg: blue;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: green;
+}
+
+
+.navbar-brand img {
+    width: 60px;
+    border-radius: 50%;
+    
+}
+.btn  {
+    background-color: green;
+    color: #fff;
+}
+.btn:hover {
+    background-color: #026738;
+}
+
+main {
+    margin-top: 5rem;
+}
+
+section {
+    scroll-margin-top: 6rem;
+}
+
+.carousel-item {
+    height: 500px;
+    width: 100%;
+    
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.card-menu img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer {
+    width: 100%;
+    height: 30vh;
+}
+
+footer img {
+    width: 100px;
+    border-radius: 50%;
+}
