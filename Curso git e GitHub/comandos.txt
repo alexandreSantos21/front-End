@@ -1,0 +1,59 @@
+
+    Comando basico de terminal
+
+    ls - Para listar arquivos e diretorios
+    dir - Para listar diretorios
+    cd - Para entrar em uma pasta
+    touch - Para criar um arquivo
+    rm - Para remover um arquivo
+    rmdir - Para remover um diretorio vazio
+    mkdir - Para criar uma nova pasta
+    nano nome_arquivo - Permite nos mudarmos nosso arquivo pelo terminal
+    cat nome_arquivo - Para rodar arquivos no terminal
+
+
+    Comando de configuração 
+
+
+    git config --global --list - Este comando usamos para listar as configurações existe no git
+
+    git config --email - Para adicionar um email
+    git config --user.name - Para adicionar um nome de usuario
+    git config --name - Para adicionar o nome 
+
+
+
+    comando do git
+
+
+    mv c:(inicio  final) - Podemos mover pastas adicionando um lugar final diferente se e passarmos um lugar final igual podemos trocar o nome 
+    git init - Para iniciar um novo repositorio
+    git add nome_arquivo - Para deixar o arquivo na area de preparação ou (git add .) para adicionar todos os arquivos
+    git rm --cached - para removar algum arquivo da area de preparação
+    git commit -m - Para fazer o commit com uma mensagem
+    git log - para listar os commit que foram feitos
+    git log --oneline - É uma forma mais reduzida para listar os commit
+
+
+
+    Revertendo os commit 
+
+    
+    checkout - Ele apenas volta para o estado anterior do commit 
+    revert - desfaz o que foi feito porem não apaga e sim cria um novo commit no historico
+
+
+    reset - Ele volta para o estado anterior porem apaga o estado atual (voltou no tempo)
+
+        TIPOS DE RESET 
+
+        --reset (endereço) --hard  - volta e apaga tudo 
+        --mixed - deixa na area de rastreio (vermelho)
+        --soft - deixa na area de envio
+
+
+
+
+
+
+
